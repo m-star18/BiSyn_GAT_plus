@@ -6,14 +6,14 @@ import copy
 
 
 class H_TransformerEncoder(nn.Module):
-    '''
+    """
     Transformer Encoder
-    '''
+    """
 
     def __init__(self, d_model=512,
                  nhead=8,
                  num_encoder_layers=6,
-                 inner_encoder_layers = 3,
+                 inner_encoder_layers=3,
                  dim_feedforward=2048,
                  dropout=0.1,
                  activation='relu',
@@ -21,12 +21,12 @@ class H_TransformerEncoder(nn.Module):
 
         super(H_TransformerEncoder, self).__init__()
         encoder_layer = H_TransformerEncoderLayer(d_model=d_model,
-                                                nhead=nhead,
-                                                inner_layer=inner_encoder_layers,
-                                                dim_feedforward=dim_feedforward,
-                                                dropout=dropout,
-                                                activation=activation,
-                                                layer_norm_eps=layer_norm_eps)
+                                                  nhead=nhead,
+                                                  inner_layer=inner_encoder_layers,
+                                                  dim_feedforward=dim_feedforward,
+                                                  dropout=dropout,
+                                                  activation=activation,
+                                                  layer_norm_eps=layer_norm_eps)
 
         self.encoder_norm = nn.LayerNorm(d_model, eps=layer_norm_eps)
 
@@ -36,14 +36,14 @@ class H_TransformerEncoder(nn.Module):
         self._reset_parameters()
 
     def _reset_parameters(self):
-        '''
+        """
         Initiate parameters in the transformer model
-        '''
+        """
         for p in self.parameters():
             if p.dim() > 1:
                 nn.init.xavier_uniform_(p)
 
-    def forward(self, src, mask, src_key_padding_mask): #[表示相同操作重复num_encoder_layer次]
+    def forward(self, src, mask, src_key_padding_mask):  # [表示相同操作重复num_encoder_layer次]
         # src:[bs,S,E]
         B, L, _ = src.shape
         output = src.transpose(0, 1)  # src:[S,bs,E]
@@ -55,50 +55,53 @@ class H_TransformerEncoder(nn.Module):
 
         return output.transpose(0, 1)  # [bs,S,E]
 
-class H_TransformerEncoderLayer(nn.Module): 
-    def __init__(self, d_model, nhead, inner_layer = 3, dim_feedforward=2048, dropout=0.1, activation='relu',layer_norm_eps=1e-5):
+
+class H_TransformerEncoderLayer(nn.Module):
+    def __init__(self, d_model, nhead, inner_layer=3, dim_feedforward=2048, dropout=0.1, activation='relu',
+                 layer_norm_eps=1e-5):
         super(H_TransformerEncoderLayer, self).__init__()
         self.nhead = nhead
         inner_encoder_layer = TransformerEncoderLayer(d_model=d_model,
-                                                nhead=nhead,
-                                                dim_feedforward=dim_feedforward,
-                                                dropout=dropout,
-                                                activation=activation,
-                                                layer_norm_eps=layer_norm_eps)
+                                                      nhead=nhead,
+                                                      dim_feedforward=dim_feedforward,
+                                                      dropout=dropout,
+                                                      activation=activation,
+                                                      layer_norm_eps=layer_norm_eps)
         self.layers = _get_clones(inner_encoder_layer, inner_layer)
         self.encoder_norm = nn.LayerNorm(d_model, eps=layer_norm_eps)
 
-    def forward(self, src, src_mask, src_key_padding_mask,  isindi=True):
+    def forward(self, src, src_mask, src_key_padding_mask, isindi=True):
 
         output = src
-        L,B,D = src.shape
+        L, B, D = src.shape
 
         for idx, layer in enumerate(self.layers):
-            
             # mask需要改成多头的
             mask_indi = src_mask[idx].bool().int() if isindi else ~(src_mask[idx].bool()).int()
             rm_inf = (mask_indi.sum(dim=-1, keepdim=True) == 0).repeat(1, 1, mask_indi.shape[-1])
-            attn_mask = mask_indi.float().masked_fill(mask_indi == 0, float('-inf')).masked_fill(mask_indi > 0, float(0.0)).masked_fill(rm_inf, float(0.0))
+            attn_mask = mask_indi.float().masked_fill(mask_indi == 0, float('-inf')).masked_fill(mask_indi > 0, float(
+                0.0)).masked_fill(rm_inf, float(0.0))
             attn_mask = torch.stack([attn_mask for _ in range(self.nhead)], dim=1).contiguous().view(-1, L, L)
 
             output = layer(output, src_mask=attn_mask, src_key_padding_mask=src_key_padding_mask)
-            
-            assert(torch.isnan(output).sum() == 0)
-        
+
+            assert (torch.isnan(output).sum() == 0)
+
         if self.encoder_norm is not None:
             output = self.encoder_norm(output)
             return output
+
 
 def _get_clones(module, N):
     return nn.ModuleList([copy.deepcopy(module) for i in range(N)])
 
 
 class TransformerEncoderLayer(nn.Module):
-    def __init__(self, d_model, nhead, dim_feedforward=2048, 
+    def __init__(self, d_model, nhead, dim_feedforward=2048,
                  dropout=0.1, activation="relu",
                  layer_norm_eps=1e-5):
         super(TransformerEncoderLayer, self).__init__()
-        self.self_attn = MultiheadAttention(d_model, nhead, dropout=dropout) 
+        self.self_attn = MultiheadAttention(d_model, nhead, dropout=dropout)
 
         self.dropout = nn.Dropout(dropout)
         self.feedforword = nn.Sequential(
@@ -116,6 +119,7 @@ class TransformerEncoderLayer(nn.Module):
 
         src_add_norm = self.norm(src + self.dropout(src2))
         return self.norm(src + self.feedforword(src_add_norm))
+
 
 def _get_activation_fn(activation):
     if activation == "relu":
@@ -157,7 +161,6 @@ class MultiheadAttention(nn.Module):
     def forward(self, query, key, value, key_padding_mask=None,
                 need_weights=True, attn_mask=None):
 
-        
         L, B, D = query.size()
         single_attn_mask = attn_mask.contiguous().view(B, -1, L, L)[:, 0, :, :]
         assert key.size(0) == value.size(0) and key.size(1) == value.size(1)
@@ -175,7 +178,7 @@ class MultiheadAttention(nn.Module):
         if attn_mask is not None:
             assert attn_mask.dtype == torch.float32 or attn_mask.dtype == torch.float64 or \
                    attn_mask.dtype == torch.float16 or attn_mask.dtype == torch.uint8 or attn_mask.dtype == torch.bool, \
-                'Only float, byte, and bool types are supported for attn_mask, not {}'.format(attn_mask.dtype)
+                   f'Only float, byte, and bool types are supported for attn_mask, not {attn_mask.dtype}'
             if attn_mask.dtype == torch.uint8:
                 warnings.warn(
                     "Byte tensor for attn_mask in nn.MultiheadAttention is deprecated. Use bool tensor instead.")
@@ -214,14 +217,11 @@ class MultiheadAttention(nn.Module):
                                         k.transpose(1, 2))  # [B*num_heads,L,D] * [B*num_heads,D,L] -->[B*num_heads,L,L]
         assert list(attn_output_weights.size()) == [B * self.num_heads, L, src_len]
 
-            
-
         if attn_mask is not None:
             if attn_mask.dtype == torch.bool:
                 attn_output_weights.masked_fill_(attn_mask, float('-inf'))
             else:
                 attn_output_weights += attn_mask
-
 
         if key_padding_mask is not None:
             attn_output_weights = attn_output_weights.view(B, self.num_heads, L, src_len)
@@ -230,11 +230,9 @@ class MultiheadAttention(nn.Module):
                 float('-inf'),
             )
             attn_output_weights = attn_output_weights.view(B * self.num_heads, L, src_len)
-            
+
         attn_output_weights = F.softmax(attn_output_weights, dim=-1)
         attn_output_weights = self.dropout(attn_output_weights)
-
-       
 
         attn_output = torch.bmm(attn_output_weights, v)  # [B,N,L,L] [B,N,L,D]
         assert list(attn_output.size()) == [B * self.num_heads, L, head_dim]
