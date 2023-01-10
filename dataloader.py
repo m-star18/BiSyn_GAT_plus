@@ -252,6 +252,7 @@ def ABSA_collate_fn(batch):
     con_spans = np.zeros((as_batch_size, max_num_spans, max_lens), dtype=np.int64)
     for idx in range(as_batch_size):
         mlen = len(con_spans_list[idx][0])
+        print(mlen, idx, con_spans.shape)
         con_spans[idx, :, :mlen] = con_spans_list[idx]
 
     con_spans = torch.LongTensor(con_spans)

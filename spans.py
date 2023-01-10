@@ -109,7 +109,9 @@ def form_spans(layers, influence_range, token_len, con_mapnode, special_token='[
 
             add_pre += 1
             pointer = end
-        if pointer != token_len:
+        if pointer != token_len and spans:
+            if len(spans[-1]) == pointer:
+                pointer -= 1
             sub_pre = spans[-1][pointer]
             temp[pointer:token_len] = [x + add_pre - sub_pre for x in spans[-1][pointer:token_len]]
             add_pre = temp[begin - 1] + 1
@@ -137,6 +139,8 @@ def head_to_adj_oneshot(heads, sent_len, aspect_dict,
 
     for idx, head in enumerate(heads):
         if head != -1:
+            if head >= sent_len:
+                continue
             if leaf2root:
                 adj_matrix[head, idx] = 1
             if root2leaf:
@@ -162,7 +166,11 @@ def get_conditional_adj(father, length, cd_span,
             begin_jdx = cd_span.index(jdx)
             end_jdx = len(cd_span) - cd_span[::-1].index(jdx)
             for w_i in range(begin_idx, end_idx):
+                if w_i >= length:
+                    break
                 for w_j in range(begin_jdx, end_jdx):
+                    if w_j >= length:
+                        break
                     st_adj[w_i][w_j] = 0
                     st_adj[w_j][w_i] = 0
     return st_adj

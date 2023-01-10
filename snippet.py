@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 
 def get_parameter():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--device', type=str, default='cuda')
+    parser.add_argument('--device', type=str, default='cpu')
     parser.add_argument('--data_dir', type=str, default='../data/V2/MAMS')
     parser.add_argument('--vocab_dir', type=str, default='../data/V2/MAMS')
 
@@ -148,7 +148,7 @@ def load_one_data(args, file_name, vocab, tokenizer, block_shuffle=True, is_shuf
 
 
 def load_data(args, vocab, tokenizer=None):
-    train_dataloader = load_one_data(args, file_name=args.data_dir + '/train_con_new.json',
+    train_dataloader = load_one_data(args, file_name=args.data_dir + '/valid_con_new.json',
                                      vocab=vocab, tokenizer=tokenizer, is_shuffle=True)
 
     valid_dataloader = load_one_data(args, file_name=args.data_dir + '/valid_con_new.json',
