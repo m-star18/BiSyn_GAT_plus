@@ -4,14 +4,12 @@ from collections import Counter
 import itertools
 
 
-
-
 def GetTree_heads(t):
     heads = [0] * len(t)
     mapnode = [0] * len(t)
 
     def Findheads(cidx, t, headidx):
-        if (cidx >= len(t)):
+        if cidx >= len(t):
             return cidx
         mapnode[cidx] = t[cidx].lhs()
         heads[cidx] = headidx
@@ -29,8 +27,6 @@ def GetTree_heads(t):
 
     Findheads(0, t, -1)
     return heads, mapnode
-
-
 
 
 def get_path_and_children_dict(heads):
@@ -78,13 +74,14 @@ def find_inner_LCA(path_dict, aspect_range):
         flag = True
         for pid in range(1, len(path_range)):
             if path_range[0][idx] not in path_range[pid]:
-                flag = False 
+                flag = False
                 break
 
-        if flag:  
+        if flag:
             LCA_node = path_range[0][idx]
             break  # already find
     return LCA_node
+
 
 # get_word_range
 def find_LCA_and_PATH(A, B):
@@ -95,6 +92,7 @@ def find_LCA_and_PATH(A, B):
             return B[idx], A[:A.index(B[idx])], B[:idx]
     return -1, A[:-1], B[:-1]
 
+
 def FindS(l, children, mapback):
     def inner_Find(x, index):
         if x[index] not in children:
@@ -104,46 +102,39 @@ def FindS(l, children, mapback):
 
     return mapback.index(inner_Find(l, 0)), mapback.index(inner_Find(l, -1))
 
-def get_word_range(lca_A, lca_B, path_dict, children, mapback, default_range): 
-    
+
+def get_word_range(lca_A, lca_B, path_dict, children, mapback, default_range):
     LCA, pathA, pathB = find_LCA_and_PATH([lca_A] + path_dict[lca_A], [lca_B] + path_dict[lca_B])
     inner_node_LCA = children[LCA][children[LCA].index(pathA[-1]) + 1:children[LCA].index(pathB[-1])] if (
-                len(pathA) and len(pathB)) else []
+            len(pathA) and len(pathB)) else []
     word_range = FindS(inner_node_LCA, children, mapback) if len(inner_node_LCA) > 0 else \
-        default_range  
+        default_range
     return word_range
 
 
-
-
-
 def preprocess_file(file_name, dep_parser=None, con_parser=None, special_token='[N]'):
-    
-    
-    print('Processing:',file_name)
+    print('Processing:', file_name)
     from tqdm import tqdm
     from supar import Parser
     if dep_parser is None:
         dep_parser = Parser.load('biaffine-dep-en')
     if con_parser is None:
         con_parser = Parser.load('crf-con-en')
-        
-    
+
     sub_len = len(special_token)
-    
-    with open(file_name,'r',encoding='utf-8') as f:
+
+    with open(file_name, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        
+
     for d in tqdm(data):
         token = d['token']
         token = [tok.replace(u'\xa0', u'') for tok in token]
         d['token'] = token
-        
+
         # dependency parsing
         dataset = dep_parser.predict(token, verbose=False)
         dep_head = dataset.arcs[0]
-        d['dep_head'] = [x-1 for x in dep_head]
-
+        d['dep_head'] = [x - 1 for x in dep_head]
 
         # constituent parsing
         parser_inputs = ' '.join(token).replace('(', '<').replace(')', '>').split(' ')  # [ver1]
@@ -153,61 +144,58 @@ def preprocess_file(file_name, dep_parser=None, con_parser=None, special_token='
         con_head, con_mapnode = GetTree_heads(t.productions())
         d['con_head'] = con_head
 
-        
         con_mapnode = [x if isinstance(x, str) else x.__str__() + special_token for x in con_mapnode]
         d['con_mapnode'] = con_mapnode
-        
-        
-        d['aspects'].sort(key=lambda x:(x['to'],x['from']))
 
-        con_path_dict,con_children = get_path_and_children_dict(d['con_head'])
-        
+        d['aspects'].sort(key=lambda x: (x['to'], x['from']))
+
+        con_path_dict, con_children = get_path_and_children_dict(d['con_head'])
+
         mapS = [
             idx for idx, word in enumerate(con_mapnode) if word[-sub_len:] == special_token and word[:-sub_len] == 'S'
         ]
-        
-        mapback = [ idx for idx,word in enumerate(con_mapnode) if word[-sub_len:]!=special_token]
-        
+
+        mapback = [idx for idx, word in enumerate(con_mapnode) if word[-sub_len:] != special_token]
+
         for aspect_info in d['aspects']:
-            aspect_range = list(range(mapback[aspect_info['from']],mapback[aspect_info['to']-1]+1))
+            aspect_range = list(range(mapback[aspect_info['from']], mapback[aspect_info['to'] - 1] + 1))
 
             con_lca = find_inner_LCA(con_path_dict, aspect_range)
-            aspect_info['con_lca']  = con_lca
+            aspect_info['con_lca'] = con_lca
 
-            
-        choice_list = itertools.combinations(list(range(len(d['aspects']))),2)
+        choice_list = itertools.combinations(list(range(len(d['aspects']))), 2)
         aa_choice = []
-        for first,second in choice_list:
-            temp = {'select_idx':(first,second)}
+        for first, second in choice_list:
+            temp = {'select_idx': (first, second)}
             A_asp = d['aspects'][first]
             B_asp = d['aspects'][second]
 
-            default_range = (A_asp['to'],B_asp['from']-1)
-            
+            default_range = (A_asp['to'], B_asp['from'] - 1)
+
             word_range = get_word_range(A_asp['con_lca'],
                                         B_asp['con_lca'],
                                         con_path_dict,
-                                        con_children,mapback,
+                                        con_children, mapback,
                                         default_range)
 
+            assert (word_range[0] < len(token) and word_range[1] < len(token))
 
-            assert(word_range[0] < len(token) and word_range[1] < len(token))
-            
             temp['word_range'] = word_range
-            temp['polarity_pair'] = (A_asp['polarity'],B_asp['polarity'])
-            
+            temp['polarity_pair'] = (A_asp['polarity'], B_asp['polarity'])
+
             aa_choice.append(temp)
-            
+
         d['aa_choice'] = aa_choice
-        
-    with open(file_name.replace('.json','_new.json'), 'w', encoding='utf-8') as f:
-        json.dump(data,f)
+
+    with open(file_name.replace('.json', '_new.json'), 'w', encoding='utf-8') as f:
+        json.dump(data, f)
 
     print('Done!')
 
+
 if __name__ == '__main__':
     data_dir = 'data/V2'
-    for data_set in ['Laptops','MAMS','Restaurants','Tweets']:
-        for file_type in ['train','valid','test']:
+    for data_set in ['Laptops', 'MAMS', 'Restaurants', 'Tweets']:
+        for file_type in ['train', 'valid', 'test']:
             file_name = data_dir + '/' + data_set + '/' + file_type + '_con_new.json'
             preprocess_file(file_name)
