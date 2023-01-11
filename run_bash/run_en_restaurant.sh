@@ -1,5 +1,5 @@
 #!/bin/bash
-exp_path=log/restaurant
+exp_path=log/en/restaurant
 
 if [ ! -d "$exp_path" ]; then
   echo "making new dir.."
