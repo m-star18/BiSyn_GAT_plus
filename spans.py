@@ -166,11 +166,7 @@ def get_conditional_adj(father, length, cd_span,
             begin_jdx = cd_span.index(jdx)
             end_jdx = len(cd_span) - cd_span[::-1].index(jdx)
             for w_i in range(begin_idx, end_idx):
-                if w_i >= length:
-                    break
                 for w_j in range(begin_jdx, end_jdx):
-                    if w_j >= length:
-                        break
                     st_adj[w_i][w_j] = 0
                     st_adj[w_j][w_i] = 0
     return st_adj

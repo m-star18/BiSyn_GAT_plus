@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import BertModel, BertConfig
+from transformers import AutoTokenizer, AutoConfig, AutoModel
 from layer import H_TransformerEncoder
 
 
@@ -62,12 +62,12 @@ class Intra_context(nn.Module):
 
         self.args = args
 
-        bert_config = BertConfig.from_pretrained('bert-base-uncased')
+        bert_config = AutoConfig.from_pretrained(args.tokenizer)
         bert_config.output_hidden_states = True
         bert_config.num_labels = 3
 
         self.layer_drop = nn.Dropout(args.layer_dropout)
-        self.context_encoder = BertModel.from_pretrained('bert-base-uncased', config=bert_config)
+        self.context_encoder = AutoModel.from_pretrained(args.tokenizer, config=bert_config)
         self.dense = nn.Linear(args.bert_hidden_dim, args.hidden_dim)
         self.graph_encoder = H_TransformerEncoder(
             d_model=args.hidden_dim,
@@ -155,7 +155,7 @@ class Inter_context(nn.Module):
         in_dim = args.bert_hidden_dim + args.hidden_dim
         self.layer_drop = nn.Dropout(args.layer_dropout)
         if not args.borrow_encoder:
-            self.sent_encoder = BertModel.from_pretrained('bert-base-uncased')
+            self.sent_encoder = AutoModel.from_pretrained(args.tokenizer)
         self.dense = nn.Linear(args.bert_hidden_dim, args.hidden_dim)
 
         self.con_aspect_graph_encoder = H_TransformerEncoder(
