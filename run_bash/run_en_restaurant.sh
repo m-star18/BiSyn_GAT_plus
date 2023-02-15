@@ -10,7 +10,7 @@ DATE=$(date +%Y-%m-%d-%H_%M_%S)
 CUDA_VISIBLE_DEVICES=0 python3 -u train.py \
 	--data_dir data/en/restaurant \
 	--vocab_dir data/en/restaurant \
-	--batch_size 32 \
+	--batch_size 2 \
 	--input_dropout 0.2 \
 	--layer_dropout 0.1 \
 	--attn_head 2 \

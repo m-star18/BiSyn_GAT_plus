@@ -1,0 +1,9249 @@
+[
+    {
+        "token": [
+            "Serviste",
+            "cok",
+            "guzel",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Serviste"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Serviste",
+            "cok",
+            "NP[N]",
+            "guzel",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ortam",
+            "cok",
+            "guzel",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Ortam"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ortam",
+            "cok",
+            "NP[N]",
+            "guzel",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Lezzetliydi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            -1,
+            0
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Lezzetliydi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "En",
+            "be\u011fendigimiz",
+            "sushico",
+            "\u015fubesi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "sushico \u015fubesi"
+                ],
+                "from": 2,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "En",
+            "be\u011fendigimiz",
+            "sushico",
+            "\u015fubesi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bah\u00e7esi",
+            "\u00e7ok",
+            "g\u00fczel",
+            "ve",
+            "ferah",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Bah\u00e7esi"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            4,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Bah\u00e7esi",
+            "\u00e7ok",
+            "g\u00fczel",
+            "NP[N]",
+            "ve",
+            "ferah",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Sushi",
+            "ustasi",
+            "cok",
+            "becerikli",
+            "ve",
+            "\u015fakaci"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Sushi ustasi"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            7,
+            7
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Sushi",
+            "ustasi",
+            "cok",
+            "NP[N]",
+            "becerikli",
+            "NP[N]",
+            "ve",
+            "\u015fakaci"
+        ]
+    },
+    {
+        "token": [
+            "yogun",
+            "oldugu",
+            "saatlerde",
+            "servis",
+            "biraz",
+            "aksak",
+            "olsa",
+            "da",
+            "kabul",
+            "edilebilir",
+            "buluyoruz"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "servis"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "negative",
+                "con_lca": 6
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            4,
+            -1,
+            10,
+            10,
+            10,
+            10,
+            10,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            13,
+            13
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "yogun",
+            "oldugu",
+            "saatlerde",
+            "servis",
+            "biraz",
+            "NP[N]",
+            "aksak",
+            "olsa",
+            "da",
+            "kabul",
+            "NP[N]",
+            "edilebilir",
+            "buluyoruz"
+        ]
+    },
+    {
+        "token": [
+            "Men\u00fc",
+            "\u00e7e\u015fitleri",
+            "zengin",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Men\u00fc \u00e7e\u015fitleri"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Men\u00fc",
+            "\u00e7e\u015fitleri",
+            "zengin",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Fiyatlar\u0131",
+            "normalin",
+            "biraz",
+            "\u00fcst\u00fcnde",
+            "ama",
+            "yinede",
+            "caddedeki",
+            "yorgunlu\u011fu",
+            "atman\u0131z",
+            "i\u00e7in",
+            "ferah",
+            "ferah",
+            "oturabilece\u011finiz",
+            "mekan",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Fiyatlar\u0131"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 13,
+                "to": 14,
+                "polarity": "positive",
+                "con_lca": 18
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            2,
+            3,
+            3,
+            -1,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            13,
+            13,
+            13,
+            13,
+            13,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Fiyatlar\u0131",
+            "normalin",
+            "biraz",
+            "\u00fcst\u00fcnde",
+            "NP[N]",
+            "ama",
+            "yinede",
+            "caddedeki",
+            "yorgunlu\u011fu",
+            "atman\u0131z",
+            "NP[N]",
+            "i\u00e7in",
+            "ferah",
+            "ferah",
+            "oturabilece\u011finiz",
+            "mekan",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Herkesin",
+            "muhallebisini",
+            "ya",
+            "da",
+            "s\u00fct",
+            "tatlilari",
+            "yedigi",
+            "yerin",
+            "ben",
+            "k\u00fcnefesini",
+            "begeniyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "k\u00fcnefesini"
+                ],
+                "from": 9,
+                "to": 10,
+                "polarity": "positive",
+                "con_lca": 15
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            7,
+            7,
+            7,
+            7,
+            10,
+            10,
+            10,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            8,
+            8,
+            8,
+            7,
+            12,
+            12,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Herkesin",
+            "muhallebisini",
+            "ya",
+            "da",
+            "s\u00fct",
+            "NP[N]",
+            "NP[N]",
+            "tatlilari",
+            "yedigi",
+            "yerin",
+            "VP[N]",
+            "ben",
+            "NP[N]",
+            "k\u00fcnefesini",
+            "begeniyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Favorilerim",
+            "bi\u00e7ak",
+            "arasi",
+            "ve",
+            "sa\u00e7",
+            "arasi",
+            "ama",
+            "tavuk",
+            "sis",
+            "ve",
+            "diger",
+            "ekmeklerde",
+            "kasarli",
+            "ve",
+            "kiymali",
+            "\u00e7ok",
+            "basarili",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "bi\u00e7ak arasi"
+                ],
+                "from": 1,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "sa\u00e7 arasi"
+                ],
+                "from": 4,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 7
+            },
+            {
+                "term": [
+                    "tavuk sis"
+                ],
+                "from": 7,
+                "to": 9,
+                "polarity": "positive",
+                "con_lca": 10
+            },
+            {
+                "term": [
+                    "ekmeklerde"
+                ],
+                "from": 11,
+                "to": 12,
+                "polarity": "positive",
+                "con_lca": 18
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    3
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    6,
+                    6
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    3
+                ],
+                "word_range": [
+                    6,
+                    10
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    2,
+                    3
+                ],
+                "word_range": [
+                    9,
+                    10
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            12,
+            12,
+            16,
+            16,
+            16,
+            16,
+            16,
+            8,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            7,
+            7,
+            7,
+            10,
+            10,
+            10,
+            10,
+            14,
+            14,
+            16,
+            16,
+            16,
+            16,
+            20,
+            20,
+            22,
+            22,
+            22,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Favorilerim",
+            "bi\u00e7ak",
+            "arasi",
+            "ve",
+            "VP[N]",
+            "sa\u00e7",
+            "arasi",
+            "NP[N]",
+            "ama",
+            "tavuk",
+            "sis",
+            "NP[N]",
+            "ve",
+            "NP[N]",
+            "diger",
+            "ekmeklerde",
+            "kasarli",
+            "PP[N]",
+            "ve",
+            "NP[N]",
+            "kiymali",
+            "\u00e7ok",
+            "basarili",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Konyada",
+            "yemedim",
+            "ama",
+            "yiyenlerinde",
+            "begendigi",
+            "bir",
+            "mekan",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 6,
+                "to": 7,
+                "polarity": "positive",
+                "con_lca": 12
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            5,
+            5,
+            7,
+            7,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Konyada",
+            "yemedim",
+            "NP[N]",
+            "ama",
+            "NP[N]",
+            "yiyenlerinde",
+            "NP[N]",
+            "begendigi",
+            "bir",
+            "mekan",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Servis",
+            "iyi",
+            "olmadigindan",
+            "michelin",
+            "yildizli",
+            "yemek",
+            "yapsalar",
+            "g\u00f6z\u00fcme",
+            "g\u00f6r\u00fcnm\u00fcyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Servis"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            1,
+            4,
+            4,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Servis",
+            "VP[N]",
+            "iyi",
+            "NP[N]",
+            "olmadigindan",
+            "michelin",
+            "yildizli",
+            "yemek",
+            "yapsalar",
+            "g\u00f6z\u00fcme",
+            "g\u00f6r\u00fcnm\u00fcyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "35",
+            "derece",
+            "yaz",
+            "sicaginda",
+            "buzdolaplari",
+            "bozuk",
+            "diye",
+            "sicak",
+            "kola",
+            "getirdiler",
+            "bu",
+            "sefer",
+            "de",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kola"
+                ],
+                "from": 8,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 13
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            12,
+            12,
+            12,
+            -1,
+            12,
+            12,
+            9,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            10,
+            10,
+            12,
+            12,
+            14,
+            14,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "35",
+            "derece",
+            "yaz",
+            "sicaginda",
+            "buzdolaplari",
+            "bozuk",
+            "diye",
+            "NP[N]",
+            "sicak",
+            "NP[N]",
+            "kola",
+            "NP[N]",
+            "getirdiler",
+            "bu",
+            "sefer",
+            "de",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Buradan",
+            "i\u00e7eri",
+            "girersiniz",
+            "kar\u015f\u0131lamas\u0131ndan",
+            "tutunda",
+            "etten",
+            "\u00f6nce",
+            "gelen",
+            "kuverdeki",
+            "tur\u015fuya",
+            "kadar",
+            "hepsi",
+            "\u00f6zenle",
+            "se\u00e7ilmi\u015f",
+            "haz\u0131rlanm\u0131\u015f",
+            "mekan\u0131n",
+            "ve",
+            "tatlar\u0131n",
+            "i\u00e7inde",
+            "gezer",
+            "durursunuz",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan\u0131n"
+                ],
+                "from": 15,
+                "to": 16,
+                "polarity": "positive",
+                "con_lca": 21
+            },
+            {
+                "term": [
+                    "tatlar\u0131n"
+                ],
+                "from": 17,
+                "to": 18,
+                "polarity": "positive",
+                "con_lca": 25
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    16,
+                    16
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            -1,
+            5,
+            5,
+            15,
+            11,
+            11,
+            15,
+            15,
+            15,
+            15,
+            5,
+            15,
+            20,
+            20,
+            20,
+            15,
+            6
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            9,
+            9,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            17,
+            17,
+            17,
+            17,
+            17,
+            22,
+            22,
+            24,
+            24,
+            24,
+            24,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Buradan",
+            "i\u00e7eri",
+            "girersiniz",
+            "kar\u015f\u0131lamas\u0131ndan",
+            "tutunda",
+            "etten",
+            "VP[N]",
+            "\u00f6nce",
+            "NP[N]",
+            "gelen",
+            "kuverdeki",
+            "tur\u015fuya",
+            "kadar",
+            "hepsi",
+            "NP[N]",
+            "\u00f6zenle",
+            "se\u00e7ilmi\u015f",
+            "haz\u0131rlanm\u0131\u015f",
+            "mekan\u0131n",
+            "PP[N]",
+            "ve",
+            "NP[N]",
+            "tatlar\u0131n",
+            "i\u00e7inde",
+            "gezer",
+            "durursunuz",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Et",
+            "men\u00fcs\u00fcnden",
+            "istedi\u011finizi",
+            "se\u00e7ebilirsiniz",
+            "hepsi",
+            "olabilece\u011finin",
+            "en",
+            "iyisidir"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Et"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            5,
+            -1,
+            5,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            10,
+            10,
+            12
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Et",
+            "men\u00fcs\u00fcnden",
+            "istedi\u011finizi",
+            "se\u00e7ebilirsiniz",
+            "hepsi",
+            "NP[N]",
+            "olabilece\u011finin",
+            "PP[N]",
+            "en",
+            "NP[N]",
+            "iyisidir"
+        ]
+    },
+    {
+        "token": [
+            "Tatl\u0131lar",
+            "da",
+            "bir",
+            "o",
+            "kadar",
+            "harikad\u0131r",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Tatl\u0131lar"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            5,
+            5,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tatl\u0131lar",
+            "da",
+            "bir",
+            "o",
+            "kadar",
+            "harikad\u0131r",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Mekan\u0131n",
+            "sahibi",
+            "Beyti",
+            "Bey",
+            "her",
+            "oraya",
+            "gidi\u015finizde",
+            "masan\u0131za",
+            "u\u011fray\u0131p",
+            "selam",
+            "verir",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Mekan\u0131n sahibi"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Mekan\u0131n",
+            "sahibi",
+            "Beyti",
+            "VP[N]",
+            "Bey",
+            "NP[N]",
+            "her",
+            "oraya",
+            "gidi\u015finizde",
+            "masan\u0131za",
+            "u\u011fray\u0131p",
+            "selam",
+            "verir",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "S\u00f6ylenecek",
+            "daha",
+            "da",
+            "bir\u015fey",
+            "yok",
+            "kesinlikle",
+            "g\u00fczel",
+            "yemek",
+            "yemek",
+            "istiyor",
+            "ve",
+            "risk",
+            "almak",
+            "istemiyorsan\u0131z",
+            "bana",
+            "kal\u0131rsa",
+            "Beyti'den",
+            "iyisi",
+            "yoktur"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "yemek"
+                ],
+                "from": 7,
+                "to": 9,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            11,
+            9,
+            -1,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            11
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            13,
+            13,
+            15,
+            15,
+            15,
+            15,
+            15,
+            20,
+            20,
+            20
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "S\u00f6ylenecek",
+            "daha",
+            "da",
+            "bir\u015fey",
+            "yok",
+            "kesinlikle",
+            "g\u00fczel",
+            "yemek",
+            "yemek",
+            "istiyor",
+            "ve",
+            "VP[N]",
+            "risk",
+            "NP[N]",
+            "almak",
+            "istemiyorsan\u0131z",
+            "bana",
+            "kal\u0131rsa",
+            "NP[N]",
+            "Beyti'den",
+            "iyisi",
+            "yoktur"
+        ]
+    },
+    {
+        "token": [
+            "\u00d6zellikle",
+            "yabanc\u0131",
+            "misafirlerinizi",
+            "a\u011f\u0131rlamak",
+            "i\u00e7in",
+            "osmanl\u0131",
+            "tarz\u0131",
+            "dekorasyonu",
+            "ve",
+            "ak\u0131l",
+            "almaz",
+            "lezzetleri",
+            "sayesinde",
+            "t\u00fcrk",
+            "mutfa\u011f\u0131n\u0131",
+            "tan\u0131tmak",
+            "i\u00e7in",
+            "\u00e7ok",
+            "uygun",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "dekorasyonu"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 9
+            },
+            {
+                "term": [
+                    "lezzetleri"
+                ],
+                "from": 11,
+                "to": 12,
+                "polarity": "positive",
+                "con_lca": 14
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    8,
+                    8
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            -1,
+            7,
+            7,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            7,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            18,
+            18,
+            18,
+            18,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00d6zellikle",
+            "yabanc\u0131",
+            "misafirlerinizi",
+            "a\u011f\u0131rlamak",
+            "i\u00e7in",
+            "osmanl\u0131",
+            "tarz\u0131",
+            "dekorasyonu",
+            "ve",
+            "NP[N]",
+            "ak\u0131l",
+            "almaz",
+            "lezzetleri",
+            "sayesinde",
+            "t\u00fcrk",
+            "mutfa\u011f\u0131n\u0131",
+            "NP[N]",
+            "tan\u0131tmak",
+            "i\u00e7in",
+            "\u00e7ok",
+            "uygun",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Servis",
+            "kotu",
+            ",",
+            "mekan",
+            "fazla",
+            "aydinlik",
+            "ve",
+            "gurultulu",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Servis"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "negative",
+                "con_lca": 7
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    2,
+                    2
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            5,
+            7,
+            1,
+            7,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Servis",
+            "kotu",
+            ",",
+            "NP[N]",
+            "mekan",
+            "fazla",
+            "aydinlik",
+            "ve",
+            "gurultulu",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Garsonlarin",
+            "ilgisizligi",
+            "cabasi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Garsonlarin"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Garsonlarin",
+            "ilgisizligi",
+            "cabasi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Yemekler",
+            "soguk",
+            "ve",
+            "gec",
+            "geliyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Yemekler"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "geliyor"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "negative",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    1,
+                    3
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            4,
+            4,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            5,
+            5,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Yemekler",
+            "soguk",
+            "VP[N]",
+            "ve",
+            "NP[N]",
+            "gec",
+            "geliyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tek",
+            "guzelligi",
+            "Marina",
+            "manzarasi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Marina manzarasi"
+                ],
+                "from": 2,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tek",
+            "guzelligi",
+            "Marina",
+            "manzarasi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bide",
+            "Cikolatali",
+            "Karayip",
+            "katlarini",
+            "met",
+            "etmeden",
+            "yapamiycam",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Cikolatali Karayip katlarini"
+                ],
+                "from": 1,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            4,
+            -1,
+            6,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            7,
+            7,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Bide",
+            "Cikolatali",
+            "Karayip",
+            "katlarini",
+            "VP[N]",
+            "met",
+            "NP[N]",
+            "etmeden",
+            "yapamiycam",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u0130stikrarli",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            -1,
+            0
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u0130stikrarli",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Her",
+            "gittigimde",
+            "bir",
+            "\u00f6ncekinden",
+            "daha",
+            "k\u00f6t\u00fc",
+            "susi",
+            "yapmayi",
+            "nasil",
+            "yapmayi",
+            "beceriyorlar?"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "susi"
+                ],
+                "from": 6,
+                "to": 7,
+                "polarity": "negative",
+                "con_lca": 11
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            8,
+            8,
+            10,
+            10,
+            10,
+            13,
+            13,
+            13
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Her",
+            "gittigimde",
+            "bir",
+            "\u00f6ncekinden",
+            "daha",
+            "NP[N]",
+            "k\u00f6t\u00fc",
+            "NP[N]",
+            "susi",
+            "yapmayi",
+            "NP[N]",
+            "nasil",
+            "yapmayi",
+            "beceriyorlar?"
+        ]
+    },
+    {
+        "token": [
+            "Sushiler",
+            "gene",
+            "basarili",
+            "ama",
+            "yemekler",
+            "ciddi",
+            "anlamda",
+            "bozuldu",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Sushiler"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "yemekler"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "negative",
+                "con_lca": 7
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    1,
+                    2
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            6,
+            7,
+            7,
+            7,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Sushiler",
+            "gene",
+            "basarili",
+            "NP[N]",
+            "ama",
+            "yemekler",
+            "ciddi",
+            "anlamda",
+            "bozuldu",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Cok",
+            "guzel",
+            "hepsi",
+            "birbirinden",
+            "guzel",
+            "yemeklerinizz",
+            "ve",
+            "lezzetli",
+            "sonrasinda",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "yemeklerinizz"
+                ],
+                "from": 5,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 8
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            5,
+            5,
+            2,
+            8,
+            8,
+            5,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            9,
+            9,
+            11,
+            11,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Cok",
+            "guzel",
+            "hepsi",
+            "birbirinden",
+            "guzel",
+            "NP[N]",
+            "yemeklerinizz",
+            "NP[N]",
+            "ve",
+            "NP[N]",
+            "lezzetli",
+            "sonrasinda",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Garsonlarin",
+            "servis",
+            "sunumunda",
+            "hersey",
+            "d\u00f6rt",
+            "d\u00f6rt",
+            "l\u00fck",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Garsonlarin"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            6,
+            6,
+            6,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            6,
+            6,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Garsonlarin",
+            "servis",
+            "sunumunda",
+            "NP[N]",
+            "hersey",
+            "d\u00f6rt",
+            "NP[N]",
+            "d\u00f6rt",
+            "l\u00fck",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tesekkur",
+            "ediyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tesekkur",
+            "ediyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tavsiye",
+            "bicak",
+            "arasi",
+            "yemeniz"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "bicak arasi"
+                ],
+                "from": 1,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tavsiye",
+            "bicak",
+            "arasi",
+            "yemeniz"
+        ]
+    },
+    {
+        "token": [
+            "Masanin",
+            "bir",
+            "ucundan",
+            "diger",
+            "ucuna",
+            "kadar",
+            "uzaniyir",
+            "konya",
+            "mutfagindan",
+            "farkli",
+            "lezzetler",
+            "deneyin",
+            "fiyatlar",
+            "uygun",
+            "geldi"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lezzetler"
+                ],
+                "from": 10,
+                "to": 11,
+                "polarity": "positive",
+                "con_lca": 13
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            5,
+            5,
+            5,
+            14,
+            1,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            6
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "Masanin",
+            "bir",
+            "ucundan",
+            "diger",
+            "ucuna",
+            "kadar",
+            "uzaniyir",
+            "NP[N]",
+            "konya",
+            "mutfagindan",
+            "farkli",
+            "lezzetler",
+            "deneyin",
+            "fiyatlar",
+            "uygun",
+            "geldi"
+        ]
+    },
+    {
+        "token": [
+            "\u00c7ikolatal\u0131",
+            "Saray",
+            "muhallebisi",
+            "krem",
+            "karamel",
+            "ve",
+            "ayva",
+            "tatl\u0131s\u0131ndan",
+            "tabaklarca",
+            "yiyebilirim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7ikolatal\u0131 Saray muhallebisi"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "krem karamel"
+                ],
+                "from": 3,
+                "to": 5,
+                "polarity": "positive",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "ayva tatl\u0131s\u0131ndan"
+                ],
+                "from": 6,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 10
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    2
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    3,
+                    5
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    5,
+                    5
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            9,
+            9,
+            9,
+            9,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            8,
+            8,
+            10,
+            10,
+            12,
+            12,
+            12,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "\u00c7ikolatal\u0131",
+            "Saray",
+            "muhallebisi",
+            "krem",
+            "karamel",
+            "VP[N]",
+            "ve",
+            "NP[N]",
+            "ayva",
+            "NP[N]",
+            "tatl\u0131s\u0131ndan",
+            "tabaklarca",
+            "yiyebilirim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bu",
+            "konuda",
+            "onlar\u0131n",
+            "eline",
+            "kolay",
+            "kolay",
+            "kimse",
+            "su",
+            "s\u00fcremez",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            4,
+            -1,
+            8,
+            8,
+            8,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            7,
+            7,
+            9,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Bu",
+            "konuda",
+            "onlar\u0131n",
+            "eline",
+            "NP[N]",
+            "kolay",
+            "NP[N]",
+            "kolay",
+            "kimse",
+            "su",
+            "s\u00fcremez",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00c7ok",
+            "a\u00e7san\u0131z",
+            "pilav",
+            "\u00fcst\u00fc",
+            "d\u00f6neri",
+            "deneminizi",
+            "tavsiye",
+            "ederim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "pilav \u00fcst\u00fc d\u00f6neri"
+                ],
+                "from": 2,
+                "to": 5,
+                "polarity": "positive",
+                "con_lca": 4
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            7,
+            7,
+            7,
+            7,
+            7,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            6,
+            6,
+            8,
+            8,
+            8,
+            8,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00c7ok",
+            "a\u00e7san\u0131z",
+            "NP[N]",
+            "pilav",
+            "NP[N]",
+            "\u00fcst\u00fc",
+            "NP[N]",
+            "d\u00f6neri",
+            "deneminizi",
+            "tavsiye",
+            "ederim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Sadece",
+            "teras",
+            "kat\u0131",
+            "oturulabilir",
+            "olan",
+            "bi",
+            "\u015fubesi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u015fubesi"
+                ],
+                "from": 6,
+                "to": 7,
+                "polarity": "negative",
+                "con_lca": 10
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            4,
+            6,
+            6,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            6,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Sadece",
+            "teras",
+            "kat\u0131",
+            "NP[N]",
+            "oturulabilir",
+            "olan",
+            "bi",
+            "\u015fubesi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Di\u011fer",
+            "katlara",
+            "pekte",
+            "gerek",
+            "yokmu\u015f",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "katlara"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Di\u011fer",
+            "katlara",
+            "NP[N]",
+            "pekte",
+            "NP[N]",
+            "gerek",
+            "yokmu\u015f",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00c7al\u0131\u015fanlar",
+            "oldukca",
+            "ilgili",
+            "alakal\u0131"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7al\u0131\u015fanlar"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00c7al\u0131\u015fanlar",
+            "oldukca",
+            "NP[N]",
+            "ilgili",
+            "alakal\u0131"
+        ]
+    },
+    {
+        "token": [
+            "fiyatlar",
+            "ayn\u0131",
+            "yani",
+            "normal"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "fiyatlar"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "neutral",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "fiyatlar",
+            "ayn\u0131",
+            "NP[N]",
+            "yani",
+            "normal"
+        ]
+    },
+    {
+        "token": [
+            "teras",
+            "kat\u0131nda",
+            "tatl\u0131n\u0131z\u0131",
+            "yiyip",
+            "\u00e7ay\u0131n\u0131z\u0131",
+            "yudumlayabilirsiniz",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "teras kat\u0131nda"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            5,
+            5,
+            5,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "teras",
+            "kat\u0131nda",
+            "NP[N]",
+            "tatl\u0131n\u0131z\u0131",
+            "yiyip",
+            "\u00e7ay\u0131n\u0131z\u0131",
+            "yudumlayabilirsiniz",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Denemek",
+            "lazim",
+            "\u00d6gle",
+            "arasinda",
+            "is",
+            "yerinden",
+            "arkadaslar",
+            "ile",
+            "gittik",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            8,
+            8,
+            8,
+            8,
+            8,
+            -1,
+            8
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            7,
+            7,
+            9,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Denemek",
+            "lazim",
+            "\u00d6gle",
+            "arasinda",
+            "VP[N]",
+            "is",
+            "NP[N]",
+            "yerinden",
+            "arkadaslar",
+            "ile",
+            "gittik",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bi\u00e7ak",
+            "arasi",
+            "iyi",
+            ",",
+            "sa\u00e7",
+            "arasi",
+            "m\u00fckemmel",
+            ",",
+            "garsonlar",
+            "ilgisiz",
+            "ve",
+            "fiyatlar",
+            "u\u00e7mus",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Bi\u00e7ak arasi"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "sa\u00e7 arasi"
+                ],
+                "from": 4,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 7
+            },
+            {
+                "term": [
+                    "garsonlar"
+                ],
+                "from": 8,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 13
+            },
+            {
+                "term": [
+                    "fiyatlar"
+                ],
+                "from": 11,
+                "to": 12,
+                "polarity": "negative",
+                "con_lca": 17
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    3,
+                    7
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    3
+                ],
+                "word_range": [
+                    3,
+                    7
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    7,
+                    7
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    3
+                ],
+                "word_range": [
+                    7,
+                    7
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    2,
+                    3
+                ],
+                "word_range": [
+                    9,
+                    10
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            6,
+            6,
+            2,
+            2,
+            12,
+            12,
+            12,
+            12,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            7,
+            7,
+            7,
+            1,
+            1,
+            12,
+            12,
+            12,
+            12,
+            16,
+            16,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Bi\u00e7ak",
+            "arasi",
+            "iyi",
+            ",",
+            "NP[N]",
+            "sa\u00e7",
+            "arasi",
+            "m\u00fckemmel",
+            ",",
+            "NP[N]",
+            "garsonlar",
+            "ilgisiz",
+            "ve",
+            "NP[N]",
+            "fiyatlar",
+            "u\u00e7mus",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ama",
+            "gene",
+            "de",
+            "gitmek",
+            "lazim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ama",
+            "gene",
+            "de",
+            "gitmek",
+            "lazim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Etli",
+            "ekme\u011finin",
+            "Konya'daki",
+            "mekanlardan",
+            "bile",
+            "daha",
+            "lezzetli",
+            "oldu\u011funu",
+            "d\u00fc\u015f\u00fcnd\u00fc\u011f\u00fcm",
+            "mekand\u0131",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Etli ekme\u011finin"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            9,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Etli",
+            "ekme\u011finin",
+            "Konya'daki",
+            "mekanlardan",
+            "bile",
+            "daha",
+            "NP[N]",
+            "lezzetli",
+            "oldu\u011funu",
+            "d\u00fc\u015f\u00fcnd\u00fc\u011f\u00fcm",
+            "mekand\u0131",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ba\u015fak\u015fehir",
+            "\u015fubesi",
+            "a\u00e7\u0131ld\u0131\u011f\u0131ndan",
+            "beri",
+            "o",
+            "eski",
+            "Oval\u0131",
+            "de\u011fil",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Ba\u015fak\u015fehir \u015fubesi"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3,
+            7,
+            7,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ba\u015fak\u015fehir",
+            "\u015fubesi",
+            "a\u00e7\u0131ld\u0131\u011f\u0131ndan",
+            "beri",
+            "o",
+            "NP[N]",
+            "eski",
+            "Oval\u0131",
+            "de\u011fil",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "mekan\u0131n",
+            "yeri",
+            "\u00e7ok",
+            "g\u00fczel",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan\u0131n yeri"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "mekan\u0131n",
+            "yeri",
+            "\u00e7ok",
+            "g\u00fczel",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00e7al\u0131\u015fanlar\u0131",
+            "kibar",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00e7al\u0131\u015fanlar\u0131"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00e7al\u0131\u015fanlar\u0131",
+            "kibar",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "lezzetine",
+            "g\u00fcvenebilece\u011finiz",
+            "bir",
+            "zincir",
+            "zaten",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lezzetine"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "lezzetine",
+            "g\u00fcvenebilece\u011finiz",
+            "NP[N]",
+            "bir",
+            "zincir",
+            "zaten",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "deniz",
+            "\u00fcr\u00fcnleri",
+            "salatas\u0131",
+            "\u00e7ok",
+            "lezzetli",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "deniz \u00fcr\u00fcnleri salatas\u0131"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "deniz",
+            "\u00fcr\u00fcnleri",
+            "NP[N]",
+            "salatas\u0131",
+            "NP[N]",
+            "\u00e7ok",
+            "lezzetli",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "ahtapot",
+            ",",
+            "karides",
+            ",",
+            "kalamar",
+            ",",
+            "somon",
+            "f\u00fcme",
+            "ne",
+            "ararsan\u0131z",
+            "var",
+            "i\u00e7inde",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "ahtapot karides kalamar somon"
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            -1,
+            0,
+            7,
+            0,
+            7,
+            7,
+            7,
+            11,
+            11,
+            11,
+            11,
+            0,
+            0
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            5,
+            1,
+            1,
+            8,
+            1,
+            1,
+            11,
+            11,
+            11,
+            11,
+            11,
+            16,
+            16,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "ahtapot",
+            ",",
+            "NP[N]",
+            "karides",
+            ",",
+            "NP[N]",
+            "kalamar",
+            ",",
+            "NP[N]",
+            "somon",
+            "f\u00fcme",
+            "ne",
+            "ararsan\u0131z",
+            "PP[N]",
+            "var",
+            "i\u00e7inde",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "sa\u011fl\u0131kl\u0131",
+            "ve",
+            "hafif",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "sa\u011fl\u0131kl\u0131",
+            "ve",
+            "NP[N]",
+            "hafif",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Toplant\u0131",
+            "i\u00e7in",
+            "Kalk\u0131p",
+            "Florya",
+            "Lara",
+            "kadar",
+            "gidip",
+            "beklentiye",
+            "ba\u011fl\u0131",
+            "olarak",
+            "hayal",
+            "k\u0131r\u0131kl\u0131\u011f\u0131",
+            "yaratan",
+            "mekan",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 13,
+                "to": 14,
+                "polarity": "negative",
+                "con_lca": 19
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            5,
+            5,
+            5,
+            1,
+            5,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            9,
+            10,
+            10,
+            10,
+            10,
+            10,
+            9,
+            16,
+            16,
+            16,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Toplant\u0131",
+            "i\u00e7in",
+            "Kalk\u0131p",
+            "Florya",
+            "Lara",
+            "kadar",
+            "NP[N]",
+            "NP[N]",
+            "gidip",
+            "beklentiye",
+            "ba\u011fl\u0131",
+            "olarak",
+            "hayal",
+            "NP[N]",
+            "k\u0131r\u0131kl\u0131\u011f\u0131",
+            "yaratan",
+            "mekan",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "D\u0131\u015far\u0131dan",
+            "l\u00fcks",
+            "gibi",
+            "g\u00f6r\u00fcnse",
+            "de",
+            "art\u0131k",
+            "tarihi",
+            "ge\u00e7mi\u015f",
+            "mekan",
+            "g\u00f6r\u00fcnt\u00fcs\u00fc",
+            "vermekte",
+            "ve",
+            "i\u00e7erideki",
+            "aksesuarlar",
+            "g\u00f6z",
+            "yormakta",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 8,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 12
+            },
+            {
+                "term": [
+                    "aksesuarlar"
+                ],
+                "from": 13,
+                "to": 14,
+                "polarity": "negative",
+                "con_lca": 20
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    9,
+                    12
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            3,
+            1,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            15,
+            15,
+            15,
+            15,
+            15,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            11,
+            11,
+            13,
+            13,
+            13,
+            16,
+            16,
+            18,
+            18,
+            18,
+            18,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "D\u0131\u015far\u0131dan",
+            "l\u00fcks",
+            "gibi",
+            "g\u00f6r\u00fcnse",
+            "de",
+            "art\u0131k",
+            "NP[N]",
+            "tarihi",
+            "ge\u00e7mi\u015f",
+            "NP[N]",
+            "mekan",
+            "NP[N]",
+            "g\u00f6r\u00fcnt\u00fcs\u00fc",
+            "vermekte",
+            "NP[N]",
+            "ve",
+            "NP[N]",
+            "i\u00e7erideki",
+            "aksesuarlar",
+            "g\u00f6z",
+            "yormakta",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Yemeklere",
+            "gelince",
+            "d\u00f6ner",
+            "tats\u0131z",
+            "tuzsuz",
+            ",",
+            "et",
+            "k\u00f6fte",
+            "P\u0131nar'\u0131n",
+            "et",
+            "k\u00f6ftesinden",
+            "daha",
+            "k\u00f6t\u00fc",
+            ",",
+            "k\u0131rm\u0131z\u0131",
+            "et",
+            "hafif\u00e7e",
+            "sert",
+            "ve",
+            "keyifsizdi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "d\u00f6ner"
+                ],
+                "from": 2,
+                "to": 3,
+                "polarity": "negative",
+                "con_lca": 5
+            },
+            {
+                "term": [
+                    "et k\u00f6fte"
+                ],
+                "from": 6,
+                "to": 8,
+                "polarity": "negative",
+                "con_lca": 9
+            },
+            {
+                "term": [
+                    "k\u0131rm\u0131z\u0131 et"
+                ],
+                "from": 14,
+                "to": 16,
+                "polarity": "negative",
+                "con_lca": 19
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    5,
+                    5
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    5,
+                    13
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    8,
+                    13
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4,
+            8,
+            8,
+            4,
+            8,
+            12,
+            12,
+            4,
+            4,
+            19,
+            19,
+            19,
+            19,
+            19,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            9,
+            9,
+            1,
+            1,
+            1,
+            1,
+            1,
+            16,
+            1,
+            1,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Yemeklere",
+            "gelince",
+            "d\u00f6ner",
+            "tats\u0131z",
+            "tuzsuz",
+            ",",
+            "NP[N]",
+            "et",
+            "k\u00f6fte",
+            "P\u0131nar'\u0131n",
+            "et",
+            "k\u00f6ftesinden",
+            "daha",
+            "NP[N]",
+            "k\u00f6t\u00fc",
+            ",",
+            "NP[N]",
+            "k\u0131rm\u0131z\u0131",
+            "et",
+            "hafif\u00e7e",
+            "sert",
+            "ve",
+            "keyifsizdi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Belki",
+            "k\u00fcnefe",
+            "iyidir",
+            "diye",
+            "d\u00fc\u015f\u00fcn\u00fcrken",
+            "k\u00fcnefenin",
+            "peynirden",
+            "yoksun",
+            "olmas\u0131",
+            "hayal",
+            "k\u0131r\u0131kl\u0131\u011f\u0131m\u0131z\u0131",
+            "\u00fcst",
+            "seviyeye",
+            "\u00e7\u0131kard\u0131",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "k\u00fcnefe"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 4
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4,
+            8,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            5,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            13,
+            13,
+            15,
+            15,
+            17,
+            17,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Belki",
+            "k\u00fcnefe",
+            "iyidir",
+            "diye",
+            "d\u00fc\u015f\u00fcn\u00fcrken",
+            "k\u00fcnefenin",
+            "peynirden",
+            "yoksun",
+            "olmas\u0131",
+            "hayal",
+            "NP[N]",
+            "k\u0131r\u0131kl\u0131\u011f\u0131m\u0131z\u0131",
+            "NP[N]",
+            "\u00fcst",
+            "NP[N]",
+            "seviyeye",
+            "\u00e7\u0131kard\u0131",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Illa",
+            "kebap",
+            "yemek",
+            "istiyorsan\u0131z",
+            "ba\u015fka",
+            "tercihlere",
+            "y\u00f6nelin",
+            "derim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kebap"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 4
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            7,
+            7,
+            7,
+            7,
+            7,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            6,
+            8,
+            8,
+            10,
+            10,
+            10,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Illa",
+            "kebap",
+            "yemek",
+            "NP[N]",
+            "istiyorsan\u0131z",
+            "NP[N]",
+            "ba\u015fka",
+            "NP[N]",
+            "tercihlere",
+            "y\u00f6nelin",
+            "derim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Uzun",
+            "zamandir",
+            "gitmemistim",
+            "ve",
+            "iyi",
+            "ki",
+            "gitmemisim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            6,
+            6,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            8,
+            8,
+            10,
+            10,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Uzun",
+            "zamandir",
+            "gitmemistim",
+            "VP[N]",
+            "ve",
+            "NP[N]",
+            "iyi",
+            "NP[N]",
+            "ki",
+            "gitmemisim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Gercekten",
+            "lahmacunu",
+            "tavugu",
+            "berbatti",
+            "ve",
+            "gelen",
+            "hesap",
+            "2",
+            "kisi",
+            "169tl",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lahmacunu tavugu"
+                ],
+                "from": 1,
+                "to": 3,
+                "polarity": "negative",
+                "con_lca": 2
+            },
+            {
+                "term": [
+                    "hesap"
+                ],
+                "from": 6,
+                "to": 7,
+                "polarity": "negative",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    5
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3,
+            3,
+            3,
+            8,
+            9,
+            6,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            10,
+            10,
+            10,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Gercekten",
+            "lahmacunu",
+            "tavugu",
+            "berbatti",
+            "ve",
+            "gelen",
+            "hesap",
+            "NP[N]",
+            "2",
+            "kisi",
+            "169tl",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Hic",
+            "tavsiye",
+            "etmiyorum",
+            "design",
+            "deseniz",
+            "zaten",
+            "ic",
+            "karartici",
+            "ve",
+            "demode"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "design"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "negative",
+                "con_lca": 5
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            9,
+            9,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            7,
+            7,
+            11,
+            11
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "Hic",
+            "tavsiye",
+            "etmiyorum",
+            "design",
+            "deseniz",
+            "NP[N]",
+            "zaten",
+            "ic",
+            "karartici",
+            "NP[N]",
+            "ve",
+            "demode"
+        ]
+    },
+    {
+        "token": [
+            "100",
+            "lira",
+            "fix",
+            "menuye",
+            "gittik",
+            "8",
+            "kisi",
+            "1600",
+            "tl",
+            "odedik",
+            "1",
+            "buyuk",
+            "raki",
+            "ictik",
+            "toplamda",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "1600 tl"
+                ],
+                "from": 7,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 7
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            -1,
+            4,
+            14,
+            6,
+            14,
+            6,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            5,
+            5,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            15,
+            15,
+            7,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "100",
+            "lira",
+            "VP[N]",
+            "fix",
+            "NP[N]",
+            "menuye",
+            "gittik",
+            "8",
+            "kisi",
+            "1600",
+            "tl",
+            "odedik",
+            "ADJP[N]",
+            "1",
+            "buyuk",
+            "raki",
+            "ictik",
+            "toplamda",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "kahve",
+            "ve",
+            "caylar",
+            "200",
+            "tl",
+            "tutmus",
+            "heryerde",
+            "cay",
+            "ikramdir",
+            "hemde",
+            "1600",
+            "tl",
+            "hesap",
+            "verene",
+            "uzak",
+            "durun"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kahve ve caylar"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            4,
+            2,
+            9,
+            9,
+            9,
+            9,
+            2,
+            15,
+            15,
+            15,
+            15,
+            15,
+            9
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            15,
+            15,
+            17,
+            17,
+            17,
+            17
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "kahve",
+            "ve",
+            "caylar",
+            "200",
+            "tl",
+            "NP[N]",
+            "tutmus",
+            "heryerde",
+            "cay",
+            "ikramdir",
+            "hemde",
+            "1600",
+            "PP[N]",
+            "tl",
+            "NP[N]",
+            "hesap",
+            "verene",
+            "uzak",
+            "durun"
+        ]
+    },
+    {
+        "token": [
+            "E\u011fer",
+            "deniz",
+            "kenar\u0131nda",
+            "yer",
+            "bulabilirseniz",
+            "oturumu",
+            "\u00e7ok",
+            "keyifli",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "oturumu"
+                ],
+                "from": 5,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 10
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            7,
+            7,
+            7,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            6,
+            6,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "E\u011fer",
+            "deniz",
+            "kenar\u0131nda",
+            "NP[N]",
+            "yer",
+            "bulabilirseniz",
+            "NP[N]",
+            "oturumu",
+            "\u00e7ok",
+            "keyifli",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Mekan",
+            "\u00e7ok",
+            "b\u00fcy\u00fck",
+            "oldu\u011fu",
+            "i\u00e7in",
+            "personel",
+            "yeti\u015femiyo",
+            "ve",
+            "servis",
+            "s\u00fcrekli",
+            "aks\u0131yor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "personel"
+                ],
+                "from": 5,
+                "to": 6,
+                "polarity": "negative",
+                "con_lca": 7
+            },
+            {
+                "term": [
+                    "servis"
+                ],
+                "from": 8,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 10
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    6,
+                    7
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            6,
+            6,
+            6,
+            6,
+            1,
+            10,
+            10,
+            10,
+            6,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            11,
+            11,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Mekan",
+            "\u00e7ok",
+            "b\u00fcy\u00fck",
+            "oldu\u011fu",
+            "i\u00e7in",
+            "personel",
+            "yeti\u015femiyo",
+            "ve",
+            "servis",
+            "NP[N]",
+            "s\u00fcrekli",
+            "aks\u0131yor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Yemekleri",
+            "gayet",
+            "g\u00fczel"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Yemekleri"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Yemekleri",
+            "gayet",
+            "g\u00fczel"
+        ]
+    },
+    {
+        "token": [
+            "\u0130ftar",
+            "servisini",
+            "\u00e7ok",
+            "zay\u0131f",
+            "bulduk",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u0130ftar servisini"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            3,
+            4,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u0130ftar",
+            "servisini",
+            "\u00e7ok",
+            "zay\u0131f",
+            "bulduk",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "500",
+            "ki\u015fiye",
+            "kaliteli",
+            "servis",
+            "verilemiyorsa",
+            "300",
+            "ki\u015fiye",
+            "daha",
+            "iyi",
+            "\u015fartlar",
+            "sa\u011flanabilir",
+            "diye",
+            "d\u00fc\u015f\u00fcn\u00fcyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "servis"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "negative",
+                "con_lca": 7
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            2,
+            1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            14,
+            14,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "NP[N]",
+            "500",
+            "ki\u015fiye",
+            "kaliteli",
+            "servis",
+            "verilemiyorsa",
+            "NP[N]",
+            "300",
+            "ki\u015fiye",
+            "daha",
+            "iyi",
+            "NP[N]",
+            "\u015fartlar",
+            "sa\u011flanabilir",
+            "diye",
+            "d\u00fc\u015f\u00fcn\u00fcyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ramazanda",
+            "tavsiye",
+            "etmiyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ramazanda",
+            "tavsiye",
+            "etmiyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bana",
+            "sushiyi",
+            "sevdiren",
+            "tek",
+            "yer",
+            "diyebilirim",
+            "\u00e7al\u0131\u015fanlar\u0131",
+            "o",
+            "kadar",
+            "g\u00fcler",
+            "y\u00fczl\u00fc",
+            "ki",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00e7al\u0131\u015fanlar\u0131"
+                ],
+                "from": 6,
+                "to": 7,
+                "polarity": "positive",
+                "con_lca": 8
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            6,
+            6,
+            6,
+            2,
+            6,
+            11,
+            11,
+            11,
+            6,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            9,
+            9,
+            11,
+            11,
+            11,
+            11,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "Bana",
+            "sushiyi",
+            "sevdiren",
+            "tek",
+            "yer",
+            "diyebilirim",
+            "\u00e7al\u0131\u015fanlar\u0131",
+            "PP[N]",
+            "o",
+            "NP[N]",
+            "kadar",
+            "g\u00fcler",
+            "y\u00fczl\u00fc",
+            "ki",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bu",
+            "fiyata",
+            "b\u00f6yle",
+            "bir",
+            "memnuniyet",
+            "\u00e7ok",
+            "az",
+            "rastlanacak",
+            "\u015fey"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "fiyata"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 4
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            -1,
+            8,
+            8,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            7,
+            7,
+            9,
+            9,
+            11,
+            11,
+            13,
+            13
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Bu",
+            "fiyata",
+            "b\u00f6yle",
+            "bir",
+            "NP[N]",
+            "memnuniyet",
+            "NP[N]",
+            "\u00e7ok",
+            "NP[N]",
+            "az",
+            "NP[N]",
+            "rastlanacak",
+            "\u015fey"
+        ]
+    },
+    {
+        "token": [
+            "Mekan",
+            "hi\u00e7",
+            "bo\u011fucu",
+            "degil",
+            "gayet",
+            "g\u00fczel"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Mekan"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            5,
+            5,
+            7,
+            7,
+            7
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Mekan",
+            "hi\u00e7",
+            "NP[N]",
+            "bo\u011fucu",
+            "NP[N]",
+            "degil",
+            "gayet",
+            "g\u00fczel"
+        ]
+    },
+    {
+        "token": [
+            "Tabi",
+            "ki",
+            "et",
+            "yemekler",
+            "hepsi",
+            "cok",
+            "harika",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "et yemekler"
+                ],
+                "from": 2,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            6,
+            6,
+            6,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tabi",
+            "ki",
+            "et",
+            "yemekler",
+            "hepsi",
+            "NP[N]",
+            "cok",
+            "harika",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tarihi",
+            "bina",
+            "da",
+            "begendim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Tarihi bina"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tarihi",
+            "bina",
+            "da",
+            "begendim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tereya\u011fl\u0131",
+            "Mercimek",
+            "\u00c7orbas\u0131",
+            "ve",
+            "B\u0131\u00e7ak",
+            "aras\u0131",
+            "muhte\u015fem",
+            "ikili",
+            "diyebilirim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Tereya\u011fl\u0131 Mercimek \u00c7orbas\u0131"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            },
+            {
+                "term": [
+                    "B\u0131\u00e7ak aras\u0131"
+                ],
+                "from": 4,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 6
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            6,
+            6,
+            8,
+            8,
+            10,
+            10,
+            10,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tereya\u011fl\u0131",
+            "Mercimek",
+            "\u00c7orbas\u0131",
+            "ve",
+            "NP[N]",
+            "B\u0131\u00e7ak",
+            "NP[N]",
+            "aras\u0131",
+            "NP[N]",
+            "muhte\u015fem",
+            "ikili",
+            "diyebilirim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Her",
+            "\u015eubesi'nde",
+            "ayn\u0131",
+            "kaliteyi",
+            "yakalam\u0131\u015flar",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Her",
+            "\u015eubesi'nde",
+            "ayn\u0131",
+            "VP[N]",
+            "kaliteyi",
+            "yakalam\u0131\u015flar",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Sadece",
+            "d\u00f6ner",
+            "olay\u0131n\u0131",
+            "pek",
+            "yapam\u0131yorlar",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "d\u00f6ner"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Sadece",
+            "d\u00f6ner",
+            "olay\u0131n\u0131",
+            "pek",
+            "yapam\u0131yorlar",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Servis",
+            "saatlerinde",
+            "bolca",
+            "kalabalik",
+            "olan",
+            "ilgili",
+            "bir",
+            "mekan",
+            "ambiyans",
+            "olarak",
+            "farkli",
+            "bir",
+            "lezzet",
+            "tadacaginizi",
+            "size",
+            "bildiriyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "ambiyans"
+                ],
+                "from": 8,
+                "to": 9,
+                "polarity": "positive",
+                "con_lca": 12
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            -1,
+            1,
+            2,
+            5,
+            2,
+            5,
+            5,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            5,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            11,
+            11,
+            13,
+            13,
+            13,
+            13,
+            17,
+            17,
+            19,
+            19,
+            19,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Servis",
+            "saatlerinde",
+            "bolca",
+            "kalabalik",
+            "olan",
+            "ilgili",
+            "bir",
+            "mekan",
+            "VP[N]",
+            "ambiyans",
+            "NP[N]",
+            "olarak",
+            "farkli",
+            "bir",
+            "NP[N]",
+            "lezzet",
+            "NP[N]",
+            "tadacaginizi",
+            "size",
+            "bildiriyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Farkli",
+            "tatlar",
+            "icin",
+            "dusunulebilinir",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "tatlar"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Farkli",
+            "tatlar",
+            "icin",
+            "dusunulebilinir",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tavuklarin",
+            "iri",
+            "dogranmis",
+            "olmasi",
+            "pek",
+            "hos",
+            "degil",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Tavuklarin"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            5,
+            6,
+            6,
+            6,
+            6,
+            -1,
+            6
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5,
+            8,
+            8,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tavuklarin",
+            "iri",
+            "dogranmis",
+            "NP[N]",
+            "olmasi",
+            "pek",
+            "NP[N]",
+            "hos",
+            "degil",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Pilavda",
+            "su",
+            "tadi",
+            "aliyorsunuz",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Pilavda"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Pilavda",
+            "su",
+            "tadi",
+            "aliyorsunuz",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bir",
+            "de",
+            "\u00fcst\u00fcne",
+            "9",
+            ",",
+            "5",
+            "TL",
+            "veriyorsunuz",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "9,5 TL"
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            2,
+            6,
+            7,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            8,
+            8,
+            8,
+            11,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Bir",
+            "de",
+            "\u00fcst\u00fcne",
+            "9",
+            ",",
+            "NP[N]",
+            "5",
+            "TL",
+            "NP[N]",
+            "veriyorsunuz",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Tercih",
+            "etmem",
+            "Pazar",
+            "g\u00fcn\u00fc",
+            "kahvalti",
+            "i\u00e7in",
+            "gittim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kahvalti"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "negative",
+                "con_lca": 7
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            6,
+            6,
+            6,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tercih",
+            "etmem",
+            "Pazar",
+            "g\u00fcn\u00fc",
+            "NP[N]",
+            "kahvalti",
+            "i\u00e7in",
+            "gittim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Daha",
+            "\u00f6nce",
+            "Nisantasi'nda",
+            "ki",
+            "subeye",
+            "gitmistim",
+            "ve",
+            "inanilmaz",
+            "g\u00fczel",
+            "kahvalti",
+            "etmistim",
+            "ve",
+            "memnun",
+            "kalmistim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kahvalti"
+                ],
+                "from": 9,
+                "to": 10,
+                "polarity": "positive",
+                "con_lca": 12
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            2,
+            13,
+            10,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            15,
+            15,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Daha",
+            "\u00f6nce",
+            "Nisantasi'nda",
+            "ki",
+            "subeye",
+            "gitmistim",
+            "ve",
+            "NP[N]",
+            "inanilmaz",
+            "g\u00fczel",
+            "kahvalti",
+            "etmistim",
+            "ve",
+            "NP[N]",
+            "memnun",
+            "kalmistim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ama",
+            "bu",
+            "sefer",
+            "Beyoglu'nda",
+            "ki",
+            "subede",
+            "hi\u00e7",
+            "memnun",
+            "kalmadim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Beyoglu'nda ki subede"
+                ],
+                "from": 3,
+                "to": 6,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            4,
+            -1,
+            8,
+            8,
+            8,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            7,
+            7,
+            9,
+            9,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Ama",
+            "bu",
+            "sefer",
+            "Beyoglu'nda",
+            "VP[N]",
+            "ki",
+            "NP[N]",
+            "subede",
+            "hi\u00e7",
+            "memnun",
+            "kalmadim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Manzarasi",
+            "yat",
+            "limani",
+            "Garsonlari",
+            "ilgi",
+            "alakali",
+            "ozellikle",
+            "Ege",
+            "bey",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Garsonlari"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 6
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            8,
+            8,
+            8,
+            8,
+            8,
+            -1,
+            8
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Manzarasi",
+            "yat",
+            "limani",
+            "NP[N]",
+            "Garsonlari",
+            "ilgi",
+            "alakali",
+            "ozellikle",
+            "Ege",
+            "bey",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ancak",
+            "fiyatlar",
+            "ile",
+            "yemek",
+            "karsilastirmasi",
+            "bence",
+            "uyumsuz",
+            "yuksek",
+            "standartlar",
+            "icermekte",
+            "Ayni",
+            "mekanda",
+            "daha",
+            "\u00e7ok",
+            "\u00e7e\u015fit",
+            "var",
+            "\u0130sim",
+            "sat\u0131yor",
+            "birazz",
+            "Dikkat"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "fiyatlar"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            6,
+            6,
+            6,
+            6,
+            6,
+            -1,
+            14,
+            14,
+            14,
+            14,
+            19,
+            19,
+            14,
+            6,
+            19,
+            19,
+            19,
+            19,
+            14
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            15,
+            15,
+            17,
+            17,
+            19,
+            19,
+            21,
+            21,
+            21,
+            21
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ancak",
+            "fiyatlar",
+            "ile",
+            "yemek",
+            "karsilastirmasi",
+            "bence",
+            "uyumsuz",
+            "yuksek",
+            "standartlar",
+            "icermekte",
+            "Ayni",
+            "mekanda",
+            "daha",
+            "NP[N]",
+            "\u00e7ok",
+            "NP[N]",
+            "\u00e7e\u015fit",
+            "PP[N]",
+            "var",
+            "NP[N]",
+            "\u0130sim",
+            "sat\u0131yor",
+            "birazz",
+            "Dikkat"
+        ]
+    },
+    {
+        "token": [
+            "Konumu",
+            ",",
+            "manzaras\u0131",
+            ",",
+            "lezzeti",
+            "\u015fahane",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Konumu"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "manzaras\u0131"
+                ],
+                "from": 2,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 6
+            },
+            {
+                "term": [
+                    "lezzeti"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "positive",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    1,
+                    1
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    1,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    3,
+                    3
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            -1,
+            5,
+            5,
+            5,
+            5,
+            0,
+            0
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            5,
+            1,
+            1,
+            8,
+            8,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Konumu",
+            ",",
+            "NP[N]",
+            "manzaras\u0131",
+            ",",
+            "NP[N]",
+            "lezzeti",
+            "\u015fahane",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bir",
+            "arkada\u015f\u0131m\u0131n",
+            "\u0131srar\u0131",
+            "ile",
+            "lahmacun",
+            "yemi\u015ftim",
+            "ki",
+            "benim",
+            "yedi\u011fim",
+            "en",
+            "g\u00fczel",
+            "lahmacundu",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lahmacun"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "positive",
+                "con_lca": 6
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            -1,
+            8,
+            11,
+            9,
+            8
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            9,
+            9,
+            1,
+            12,
+            12,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Bir",
+            "arkada\u015f\u0131m\u0131n",
+            "\u0131srar\u0131",
+            "ile",
+            "lahmacun",
+            "yemi\u015ftim",
+            "ki",
+            "NP[N]",
+            "benim",
+            "yedi\u011fim",
+            "PP[N]",
+            "en",
+            "NP[N]",
+            "g\u00fczel",
+            "lahmacundu",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Kebaplar\u0131",
+            "zaten",
+            "muazzam"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Kebaplar\u0131"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Kebaplar\u0131",
+            "zaten",
+            "muazzam"
+        ]
+    },
+    {
+        "token": [
+            "Hepsi",
+            "harika",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Hepsi",
+            "harika",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ayr\u0131ca",
+            "sigara",
+            "i\u00e7meyenlerin",
+            "dostu",
+            "olmas\u0131",
+            "dolay\u0131s\u0131yla",
+            "bu",
+            "mekan",
+            "benim",
+            "en",
+            "favorilerimden"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekan"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 11
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            5,
+            5,
+            8,
+            8,
+            -1,
+            8,
+            8,
+            5,
+            8,
+            9
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            9,
+            10,
+            10,
+            9,
+            13,
+            13,
+            15
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "Ayr\u0131ca",
+            "sigara",
+            "i\u00e7meyenlerin",
+            "dostu",
+            "olmas\u0131",
+            "dolay\u0131s\u0131yla",
+            "bu",
+            "NP[N]",
+            "NP[N]",
+            "mekan",
+            "benim",
+            "PP[N]",
+            "en",
+            "NP[N]",
+            "favorilerimden"
+        ]
+    },
+    {
+        "token": [
+            "P\u0131r\u0131l",
+            "p\u0131r\u0131l",
+            "salonlar",
+            "G\u00fcler",
+            "y\u00fczl\u00fc",
+            "ve",
+            "temiz",
+            "garsonlar",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "salonlar"
+                ],
+                "from": 2,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 4
+            },
+            {
+                "term": [
+                    "garsonlar"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 11
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    4
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            7,
+            7,
+            4,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            9,
+            9,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "P\u0131r\u0131l",
+            "p\u0131r\u0131l",
+            "salonlar",
+            "G\u00fcler",
+            "y\u00fczl\u00fc",
+            "NP[N]",
+            "ve",
+            "NP[N]",
+            "temiz",
+            "garsonlar",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Etler",
+            "i\u00e7in",
+            "yoruma",
+            "gerek",
+            "yok",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Etler"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Etler",
+            "i\u00e7in",
+            "NP[N]",
+            "yoruma",
+            "gerek",
+            "yok",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00d6zellikle",
+            "favorim",
+            "bak\u0131r",
+            "kapta",
+            "gelen",
+            "kuzu",
+            "kol",
+            "bunu",
+            "bu",
+            "\u015fekilde",
+            "ba\u015fka",
+            "yerde",
+            "yemeniz",
+            "olanaks\u0131z",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "kuzu kol"
+                ],
+                "from": 5,
+                "to": 7,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            5,
+            5,
+            7,
+            7,
+            7,
+            7,
+            7,
+            -1,
+            7,
+            13,
+            13,
+            13,
+            13,
+            7,
+            7
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            11,
+            11,
+            11,
+            11,
+            11,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00d6zellikle",
+            "favorim",
+            "bak\u0131r",
+            "kapta",
+            "gelen",
+            "kuzu",
+            "kol",
+            "bunu",
+            "bu",
+            "NP[N]",
+            "\u015fekilde",
+            "ba\u015fka",
+            "yerde",
+            "yemeniz",
+            "olanaks\u0131z",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "zeytinya\u011fl\u0131lar",
+            "s\u00fcper",
+            "\u00f6zellikle",
+            "imambay\u0131ld\u0131",
+            "titretiyor",
+            "insan\u0131",
+            ",",
+            "alkol",
+            "i\u00e7meyecekseniz",
+            "mukakkak",
+            "koyu",
+            "ayran\u0131",
+            "i\u00e7menizi",
+            "tavsiye",
+            "ederim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "zeytinya\u011fl\u0131lar"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "imambay\u0131ld\u0131"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 6
+            },
+            {
+                "term": [
+                    "koyu ayran\u0131"
+                ],
+                "from": 10,
+                "to": 12,
+                "polarity": "positive",
+                "con_lca": 10
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    1,
+                    2
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    6,
+                    6
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    6,
+                    6
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            -1,
+            5,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            5,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "zeytinya\u011fl\u0131lar",
+            "s\u00fcper",
+            "\u00f6zellikle",
+            "imambay\u0131ld\u0131",
+            "titretiyor",
+            "insan\u0131",
+            ",",
+            "NP[N]",
+            "alkol",
+            "i\u00e7meyecekseniz",
+            "mukakkak",
+            "koyu",
+            "ayran\u0131",
+            "i\u00e7menizi",
+            "tavsiye",
+            "ederim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u0130\u015f",
+            "fiyatlara",
+            "gelince",
+            "\u00f6yle",
+            "bir",
+            "mekan",
+            "i\u00e7in",
+            "normal",
+            "fakat",
+            "beyti",
+            "kalitesinde",
+            "Avrupa",
+            "veya",
+            "Amerika'da",
+            "yer",
+            "iseniz",
+            "3",
+            "kat",
+            "fazlas\u0131n\u0131",
+            "\u00f6demek",
+            "zorundas\u0131n\u0131z",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "fiyatlara"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "neutral",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            -1,
+            14,
+            5,
+            5,
+            14,
+            14,
+            14,
+            14,
+            15,
+            5,
+            20,
+            20,
+            20,
+            20,
+            15,
+            6
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            20,
+            20,
+            20,
+            20,
+            20,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u0130\u015f",
+            "fiyatlara",
+            "gelince",
+            "\u00f6yle",
+            "NP[N]",
+            "bir",
+            "mekan",
+            "i\u00e7in",
+            "normal",
+            "fakat",
+            "beyti",
+            "NP[N]",
+            "kalitesinde",
+            "Avrupa",
+            "veya",
+            "Amerika'da",
+            "yer",
+            "iseniz",
+            "NP[N]",
+            "3",
+            "kat",
+            "fazlas\u0131n\u0131",
+            "\u00f6demek",
+            "zorundas\u0131n\u0131z",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ara",
+            "sira",
+            "gidilebilecek",
+            "bir",
+            "lokanta",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lokanta"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "neutral",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            4,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            5,
+            5,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Ara",
+            "sira",
+            "VP[N]",
+            "gidilebilecek",
+            "NP[N]",
+            "bir",
+            "lokanta",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Susileri",
+            "belli",
+            "bir",
+            "seviyede",
+            "her",
+            "zaman",
+            ",",
+            "asagi",
+            "d\u00fcsm\u00fcyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Susileri"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            5,
+            3,
+            5,
+            8,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            8,
+            9,
+            9,
+            8,
+            8,
+            13,
+            13,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "Susileri",
+            "belli",
+            "bir",
+            "VP[N]",
+            "seviyede",
+            "NP[N]",
+            "NP[N]",
+            "her",
+            "zaman",
+            ",",
+            "NP[N]",
+            "asagi",
+            "d\u00fcsm\u00fcyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00c7in",
+            "yemekleri",
+            "de",
+            "fena",
+            "degil",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7in yemekleri"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            4,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00c7in",
+            "yemekleri",
+            "de",
+            "fena",
+            "degil",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00f6\u011fle",
+            "ve",
+            "ak\u015fam",
+            "yemekleriyle",
+            "her",
+            "\u015fubesinde",
+            "ayn\u0131",
+            "kaliteyi",
+            "yakalam\u0131\u015f",
+            "mekan",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00f6\u011fle ve ak\u015fam yemekleriyle"
+                ],
+                "from": 0,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            9,
+            9,
+            9,
+            9,
+            9,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "\u00f6\u011fle",
+            "ve",
+            "ak\u015fam",
+            "VP[N]",
+            "yemekleriyle",
+            "NP[N]",
+            "her",
+            "\u015fubesinde",
+            "ayn\u0131",
+            "kaliteyi",
+            "yakalam\u0131\u015f",
+            "mekan",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "tatl\u0131lar\u0131n\u0131",
+            "\u00f6vmeye",
+            "gerek",
+            "bile",
+            "g\u00f6rm\u00fcyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "tatl\u0131lar\u0131n\u0131"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "tatl\u0131lar\u0131n\u0131",
+            "\u00f6vmeye",
+            "NP[N]",
+            "gerek",
+            "bile",
+            "g\u00f6rm\u00fcyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "yaz\u0131n",
+            "dondurmas\u0131",
+            "da",
+            "denenmeli",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "dondurmas\u0131"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "yaz\u0131n",
+            "dondurmas\u0131",
+            "da",
+            "denenmeli",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "S\u00fctl\u00fc",
+            "tatlilari",
+            "m\u00fckemmel",
+            "diyebilirim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "S\u00fctl\u00fc tatlilari"
+                ],
+                "from": 0,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "S\u00fctl\u00fc",
+            "tatlilari",
+            "m\u00fckemmel",
+            "diyebilirim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00c7ayi",
+            "g\u00fczel",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7ayi"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00c7ayi",
+            "g\u00fczel",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "D\u00f6neri",
+            "\u00e7ogu",
+            "insan",
+            "tarafindan",
+            "sevilmese",
+            "de",
+            "ben",
+            "seviyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "D\u00f6neri"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            -1,
+            7
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            7,
+            7,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "D\u00f6neri",
+            "\u00e7ogu",
+            "insan",
+            "tarafindan",
+            "NP[N]",
+            "sevilmese",
+            "de",
+            "ben",
+            "seviyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ama",
+            "iskenderi",
+            "g\u00fczel",
+            "degil",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "iskenderi"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Ama",
+            "iskenderi",
+            "NP[N]",
+            "g\u00fczel",
+            "degil",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Sos",
+            "isini",
+            "beceremiyorlar",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Sos"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "negative",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Sos",
+            "isini",
+            "beceremiyorlar",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Yanindaki",
+            "yogurt",
+            "g\u00fczel",
+            "ama",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "yogurt"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Yanindaki",
+            "yogurt",
+            "g\u00fczel",
+            "ama",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Bazen",
+            "gereksiz",
+            "derecede",
+            "\u00e7ok",
+            "kalabalik",
+            "olabiliyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            5,
+            5,
+            5,
+            -1,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            4,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Bazen",
+            "gereksiz",
+            "NP[N]",
+            "derecede",
+            "\u00e7ok",
+            "kalabalik",
+            "olabiliyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Kebap",
+            "ve",
+            "Et",
+            "restoranlar\u0131",
+            "aleminde",
+            "s\u0131k\u00e7a",
+            "kar\u015f\u0131la\u015f\u0131lan",
+            "lezzet",
+            "ve",
+            "ambiyans",
+            "paradoksunu",
+            "\u00e7\u00f6zm\u00fc\u015f",
+            "bir",
+            "mekan",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lezzet"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 10
+            },
+            {
+                "term": [
+                    "ambiyans"
+                ],
+                "from": 9,
+                "to": 10,
+                "polarity": "positive",
+                "con_lca": 13
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    8,
+                    8
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            7,
+            7,
+            7,
+            7,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            12,
+            12,
+            14,
+            14,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Kebap",
+            "ve",
+            "Et",
+            "restoranlar\u0131",
+            "aleminde",
+            "s\u0131k\u00e7a",
+            "kar\u015f\u0131la\u015f\u0131lan",
+            "lezzet",
+            "ve",
+            "NP[N]",
+            "ambiyans",
+            "NP[N]",
+            "paradoksunu",
+            "\u00e7\u00f6zm\u00fc\u015f",
+            "bir",
+            "mekan",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Lahmacun",
+            "ve",
+            "i\u00e7lik\u00f6fte",
+            "iyi",
+            "fakat",
+            "dolmalar\u0131",
+            "Antep",
+            "usul\u00fcnde",
+            "\u0130stanbul'da",
+            "yediklerim",
+            "aras\u0131nda",
+            "en",
+            "iyilerdendi",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Lahmacun ve i\u00e7lik\u00f6fte"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            },
+            {
+                "term": [
+                    "dolmalar\u0131"
+                ],
+                "from": 5,
+                "to": 6,
+                "polarity": "positive",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    4
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            -1,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            0,
+            10,
+            11,
+            0
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            10,
+            10,
+            12,
+            13,
+            13,
+            13,
+            13,
+            12,
+            18,
+            18,
+            20,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Lahmacun",
+            "ve",
+            "i\u00e7lik\u00f6fte",
+            "iyi",
+            "fakat",
+            "NP[N]",
+            "dolmalar\u0131",
+            "NP[N]",
+            "Antep",
+            "NP[N]",
+            "NP[N]",
+            "usul\u00fcnde",
+            "\u0130stanbul'da",
+            "yediklerim",
+            "aras\u0131nda",
+            "ADVP[N]",
+            "en",
+            "NP[N]",
+            "iyilerdendi",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00d6zellikle",
+            "f\u0131st\u0131kl\u0131",
+            "kebap",
+            "favorim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "f\u0131st\u0131kl\u0131 kebap"
+                ],
+                "from": 1,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00d6zellikle",
+            "f\u0131st\u0131kl\u0131",
+            "kebap",
+            "favorim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Katmer",
+            "de",
+            "muazzam",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Katmer"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Katmer",
+            "de",
+            "muazzam",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Ambiyans",
+            "ve",
+            "dekorasyon",
+            "titizlikle",
+            "tasarlanm\u0131\u015f",
+            "olan",
+            "bu",
+            "mekanda",
+            "men\u00fcye",
+            "ba\u011fl\u0131",
+            "kalmayatak",
+            "tamamen",
+            "sizin",
+            "isteklerinize",
+            "g\u00f6re",
+            "sipari\u015f",
+            "verebiliyorsunuz",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Ambiyans ve dekorasyon"
+                ],
+                "from": 0,
+                "to": 3,
+                "polarity": "positive",
+                "con_lca": 1
+            },
+            {
+                "term": [
+                    "sipari\u015f"
+                ],
+                "from": 15,
+                "to": 16,
+                "polarity": "positive",
+                "con_lca": 21
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    3,
+                    14
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            -1,
+            5,
+            5,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            5,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            2,
+            1,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "NP[N]",
+            "NP[N]",
+            "Ambiyans",
+            "ve",
+            "NP[N]",
+            "dekorasyon",
+            "titizlikle",
+            "tasarlanm\u0131\u015f",
+            "olan",
+            "bu",
+            "NP[N]",
+            "mekanda",
+            "men\u00fcye",
+            "ba\u011fl\u0131",
+            "kalmayatak",
+            "tamamen",
+            "sizin",
+            "isteklerinize",
+            "g\u00f6re",
+            "sipari\u015f",
+            "verebiliyorsunuz",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Manzara",
+            "s\u00fcper",
+            ",",
+            "yemekler",
+            "fena",
+            "de\u011fil",
+            "ama",
+            "porsiyon",
+            "miktar\u0131",
+            "\u00e7ook",
+            "\u00e7ook",
+            "azz",
+            "o",
+            "fiyat\u0131",
+            "kesinlikle",
+            "haketmiyor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "Manzara"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "yemekler"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "neutral",
+                "con_lca": 6
+            },
+            {
+                "term": [
+                    "porsiyon miktar\u0131"
+                ],
+                "from": 7,
+                "to": 9,
+                "polarity": "negative",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    2,
+                    2
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "neutral"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    1,
+                    6
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    4,
+                    6
+                ],
+                "polarity_pair": [
+                    "neutral",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            -1,
+            1,
+            11,
+            1,
+            1,
+            11,
+            11,
+            11,
+            11,
+            11,
+            1,
+            11,
+            15,
+            15,
+            11,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            13,
+            13,
+            1,
+            16,
+            16,
+            18,
+            18,
+            18,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Manzara",
+            "s\u00fcper",
+            ",",
+            "yemekler",
+            "fena",
+            "de\u011fil",
+            "ama",
+            "porsiyon",
+            "miktar\u0131",
+            "\u00e7ook",
+            "NP[N]",
+            "\u00e7ook",
+            "azz",
+            "PP[N]",
+            "o",
+            "NP[N]",
+            "fiyat\u0131",
+            "kesinlikle",
+            "haketmiyor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00e7ok",
+            "s\u0131cak",
+            "\u00e7ok",
+            "kalabal\u0131k",
+            "denizden",
+            "koku",
+            "geliyor",
+            "yemekleri",
+            "orta",
+            "garsonlar",
+            "ilgisiz",
+            "kahvalt\u0131s\u0131",
+            "zay\u0131f",
+            "\u00fczerine",
+            "gidip",
+            "Saray",
+            "dan",
+            "sub\u00f6re\u011fi",
+            "yedik",
+            "otopark",
+            "\u00fccretsiz",
+            "diyip",
+            "\u00fccret",
+            "al\u0131yor"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "koku"
+                ],
+                "from": 5,
+                "to": 6,
+                "polarity": "negative",
+                "con_lca": 7
+            },
+            {
+                "term": [
+                    "yemekleri"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "neutral",
+                "con_lca": 9
+            },
+            {
+                "term": [
+                    "garsonlar"
+                ],
+                "from": 9,
+                "to": 10,
+                "polarity": "negative",
+                "con_lca": 12
+            },
+            {
+                "term": [
+                    "kahvalt\u0131s\u0131"
+                ],
+                "from": 11,
+                "to": 12,
+                "polarity": "negative",
+                "con_lca": 14
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    6,
+                    6
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "neutral"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    2
+                ],
+                "word_range": [
+                    6,
+                    8
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    0,
+                    3
+                ],
+                "word_range": [
+                    6,
+                    8
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    2
+                ],
+                "word_range": [
+                    8,
+                    8
+                ],
+                "polarity_pair": [
+                    "neutral",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    1,
+                    3
+                ],
+                "word_range": [
+                    8,
+                    8
+                ],
+                "polarity_pair": [
+                    "neutral",
+                    "negative"
+                ]
+            },
+            {
+                "select_idx": [
+                    2,
+                    3
+                ],
+                "word_range": [
+                    10,
+                    10
+                ],
+                "polarity_pair": [
+                    "negative",
+                    "negative"
+                ]
+            }
+        ],
+        "dep_head": [
+            1,
+            2,
+            -1,
+            9,
+            5,
+            1,
+            9,
+            17,
+            17,
+            17,
+            17,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            5
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            21,
+            21,
+            23,
+            23,
+            25,
+            25,
+            27,
+            27,
+            27
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "S[N]",
+            "\u00e7ok",
+            "s\u0131cak",
+            "\u00e7ok",
+            "kalabal\u0131k",
+            "denizden",
+            "koku",
+            "geliyor",
+            "yemekleri",
+            "orta",
+            "NP[N]",
+            "garsonlar",
+            "ilgisiz",
+            "kahvalt\u0131s\u0131",
+            "zay\u0131f",
+            "\u00fczerine",
+            "gidip",
+            "Saray",
+            "dan",
+            "sub\u00f6re\u011fi",
+            "NP[N]",
+            "yedik",
+            "NP[N]",
+            "otopark",
+            "NP[N]",
+            "\u00fccretsiz",
+            "NP[N]",
+            "diyip",
+            "\u00fccret",
+            "al\u0131yor"
+        ]
+    },
+    {
+        "token": [
+            "\u00c7al\u0131\u015fanlar",
+            "kesinlikle",
+            "\u00e7ok",
+            "nezih",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7al\u0131\u015fanlar"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 2
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            -1,
+            2,
+            2
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "\u00c7al\u0131\u015fanlar",
+            "kesinlikle",
+            "\u00e7ok",
+            "nezih",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "\u00c7ay\u0131",
+            "da",
+            "g\u00fczel",
+            "yap\u0131yorlar",
+            "yan\u0131na",
+            "da",
+            "su",
+            "b\u00f6re\u011fi"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "\u00c7ay\u0131"
+                ],
+                "from": 0,
+                "to": 1,
+                "polarity": "positive",
+                "con_lca": 3
+            },
+            {
+                "term": [
+                    "su b\u00f6re\u011fi"
+                ],
+                "from": 6,
+                "to": 8,
+                "polarity": "positive",
+                "con_lca": 8
+            }
+        ],
+        "aa_choice": [
+            {
+                "select_idx": [
+                    0,
+                    1
+                ],
+                "word_range": [
+                    1,
+                    5
+                ],
+                "polarity_pair": [
+                    "positive",
+                    "positive"
+                ]
+            }
+        ],
+        "dep_head": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            -1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            6,
+            6,
+            8,
+            8,
+            8,
+            8
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "\u00c7ay\u0131",
+            "da",
+            "g\u00fczel",
+            "NP[N]",
+            "yap\u0131yorlar",
+            "NP[N]",
+            "yan\u0131na",
+            "da",
+            "su",
+            "b\u00f6re\u011fi"
+        ]
+    },
+    {
+        "token": [
+            "Tavsiye",
+            "ederim",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    ""
+                ],
+                "from": 0,
+                "to": 0,
+                "polarity": "positive",
+                "con_lca": 1
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Tavsiye",
+            "ederim",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Istiklal",
+            "Caddesi'ne",
+            "girdi\u011finizde",
+            "solda",
+            "kal\u0131yor",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "solda"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "neutral",
+                "con_lca": 5
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            4,
+            4,
+            4,
+            -1,
+            4
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Istiklal",
+            "Caddesi'ne",
+            "girdi\u011finizde",
+            "solda",
+            "kal\u0131yor",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Deniz",
+            "kenar\u0131nda",
+            "olan",
+            "b\u00fct\u00fcn",
+            "mekanlar\u0131n",
+            "auras\u0131",
+            "ba\u015fka",
+            "tabi",
+            "ad\u0131",
+            "birde",
+            "Fenerbah\u00e7e",
+            "olursa",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "mekanlar\u0131n"
+                ],
+                "from": 4,
+                "to": 5,
+                "polarity": "positive",
+                "con_lca": 9
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            2,
+            2,
+            3,
+            -1,
+            2,
+            8,
+            8,
+            8,
+            11,
+            11,
+            11,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            3,
+            3,
+            2,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            14,
+            14,
+            14,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "NP[N]",
+            "NP[N]",
+            "Deniz",
+            "kenar\u0131nda",
+            "olan",
+            "b\u00fct\u00fcn",
+            "NP[N]",
+            "mekanlar\u0131n",
+            "auras\u0131",
+            "ba\u015fka",
+            "tabi",
+            "ad\u0131",
+            "NP[N]",
+            "birde",
+            "Fenerbah\u00e7e",
+            "olursa",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "A\u00e7\u0131ld\u0131\u011f\u0131ndan",
+            "bu",
+            "yana",
+            "buran\u0131n",
+            "keyfini",
+            "\u00e7\u0131karmay\u0131",
+            "\u00e7ok",
+            "seviyorum",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "buran\u0131n"
+                ],
+                "from": 3,
+                "to": 4,
+                "polarity": "positive",
+                "con_lca": 6
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            3,
+            3,
+            3,
+            -1,
+            7,
+            7,
+            7,
+            3,
+            3
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            7,
+            7,
+            7,
+            7,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "A\u00e7\u0131ld\u0131\u011f\u0131ndan",
+            "bu",
+            "yana",
+            "NP[N]",
+            "buran\u0131n",
+            "NP[N]",
+            "keyfini",
+            "\u00e7\u0131karmay\u0131",
+            "\u00e7ok",
+            "seviyorum",
+            "."
+        ]
+    },
+    {
+        "token": [
+            "Klasik",
+            "lezzetler",
+            "."
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "lezzetler"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "positive",
+                "con_lca": 3
+            }
+        ],
+        "aa_choice": [],
+        "dep_head": [
+            1,
+            -1,
+            1
+        ],
+        "con_head": [
+            -1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "con_mapnode": [
+            "TOP[N]",
+            "NP[N]",
+            "Klasik",
+            "lezzetler",
+            "."
+        ]
+    }
+]
