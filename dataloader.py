@@ -54,6 +54,7 @@ class ABSA_Dataset(Dataset):
 
         for d in data:
             tok = list(d['token'])
+            # print(tok)
             if args.lower:
                 tok = [t.lower() for t in tok]
 
@@ -115,7 +116,7 @@ class ABSA_Dataset(Dataset):
 
                 aspect_indi = [0] * length
 
-                for pidx in range(aspect['from'], aspect['to']):
+                for pidx in range(aspect['from'], min(aspect['to'], length)):
                     aspect_indi[pidx] = 1
 
                 label = pol_vocab.stoi.get(label)
@@ -252,7 +253,10 @@ def ABSA_collate_fn(batch):
     con_spans = np.zeros((as_batch_size, max_num_spans, max_lens), dtype=np.int64)
     for idx in range(as_batch_size):
         mlen = len(con_spans_list[idx][0])
-        print(mlen, idx, con_spans.shape)
+        if mlen != len(con_spans_list[idx][1]) or mlen != len(con_spans_list[idx][2]):
+            continue
+        if mlen >= con_spans.shape[2]:
+            continue
         con_spans[idx, :, :mlen] = con_spans_list[idx]
 
     con_spans = torch.LongTensor(con_spans)

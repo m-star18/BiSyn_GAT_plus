@@ -8,7 +8,7 @@ import time
 from sklearn import metrics
 import torch.nn.functional as F
 
-from transformers import BertTokenizer
+from transformers import AutoTokenizer
 from snippet import *
 from model import BiSyn_GAT_plus
 
@@ -85,6 +85,7 @@ def train(args, vocab, tokenizer, train_dataloader, valid_dataloader, test_datal
             optimizer.zero_grad()
 
             batch = [b.to(args.device) for b in batch]
+            print(batch)
             inputs = batch[:-1]
             label = batch[-1]
 
@@ -177,9 +178,10 @@ def run(args, vocab, tokenizer):
 
 
 if __name__ == '__main__':
-    bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
     args = get_parameter()
     set_random_seed(args)
+    bert_tokenizer = AutoTokenizer.from_pretrained(args.tokenizer, TOKENIZERS_PARALLELISM=True)
 
     vocab = load_vocab(args)
 

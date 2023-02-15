@@ -69,6 +69,7 @@ def get_parameter():
     parser.add_argument('--sort_key_idx', default=0, help='sort idx')
     parser.add_argument('--borrow_encoder', default=False, action='store_true',
                         help='if inter-context module share the same context encoder with intra-context module')
+    parser.add_argument('--tokenizer', type=str, default='bert-base-uncased')
 
     args = parser.parse_args()
 
@@ -148,7 +149,7 @@ def load_one_data(args, file_name, vocab, tokenizer, block_shuffle=True, is_shuf
 
 
 def load_data(args, vocab, tokenizer=None):
-    train_dataloader = load_one_data(args, file_name=args.data_dir + '/valid_con_new.json',
+    train_dataloader = load_one_data(args, file_name=args.data_dir + '/train_con_new.json',
                                      vocab=vocab, tokenizer=tokenizer, is_shuffle=True)
 
     valid_dataloader = load_one_data(args, file_name=args.data_dir + '/valid_con_new.json',

@@ -187,7 +187,7 @@ def preprocess_file(file_name, dep_parser=None, con_parser=None, special_token='
 
         d['aa_choice'] = aa_choice
 
-    with open(file_name.replace('.json', '_new.json'), 'w', encoding='utf-8') as f:
+    with open(file_name, 'w', encoding='utf-8') as f:
         json.dump(data, f)
 
     print('Done!')

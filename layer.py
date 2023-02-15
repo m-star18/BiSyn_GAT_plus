@@ -84,7 +84,7 @@ class H_TransformerEncoderLayer(nn.Module):
             attn_mask = torch.stack([attn_mask for _ in range(self.nhead)], dim=1).contiguous().view(-1, L, L)
 
             output = layer(output, src_mask=attn_mask, src_key_padding_mask=src_key_padding_mask)
-
+            print(output)
             assert (torch.isnan(output).sum() == 0)
 
         if self.encoder_norm is not None:
